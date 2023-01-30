@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{75582D5D-DE8A-4198-9005-BCBD46490CF6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{86744CDD-3396-4867-A90B-3AA98082FCA2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealProject">
+      <UniqueIdentifier>{C8594092-8816-4A03-B669-711482C54A63}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealProject\UnrealProject.Build.cs">
+      <Filter>Source\UnrealProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealProject\UnrealProject.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject\UnrealProject.h">
+      <Filter>Source\UnrealProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealProject\UnrealProjectGameModeBase.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject\UnrealProjectGameModeBase.h">
+      <Filter>Source\UnrealProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealProject",
+			"Path": "C:\\Users\\B1035382\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealProjectEditor",
+			"Path": "C:\\Users\\B1035382\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
