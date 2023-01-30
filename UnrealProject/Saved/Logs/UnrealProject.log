@@ -1731,3 +1731,76 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.01.30-18.06.41:650][145]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.01.30-18.06.41:655][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
 [2023.01.30-18.06.41:696][148]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.01.30-18.07.20:409][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WIP" FILE="../../../../../../Users/B1035382/Documents/GitHub/TwonicJMRepo/UnrealProject/Content/WIP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-18.07.20:426][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.30-18.07.20:434][855]LogSavePackage: Moving '../../../../../../Users/B1035382/Documents/GitHub/TwonicJMRepo/UnrealProject/Saved/WIP646E69CB4B3B789854306DB8BCFE0EF7.tmp' to '../../../../../../Users/B1035382/Documents/GitHub/TwonicJMRepo/UnrealProject/Content/WIP.umap'
+[2023.01.30-18.07.20:438][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WIP_BuiltData" FILE="../../../../../../Users/B1035382/Documents/GitHub/TwonicJMRepo/UnrealProject/Content/WIP_BuiltData.uasset" SILENT=true
+[2023.01.30-18.07.20:448][855]LogSavePackage: Moving '../../../../../../Users/B1035382/Documents/GitHub/TwonicJMRepo/UnrealProject/Saved/WIP_BuiltData98A2B06E497A3AEC9636AD86324947CE.tmp' to '../../../../../../Users/B1035382/Documents/GitHub/TwonicJMRepo/UnrealProject/Content/WIP_BuiltData.uasset'
+[2023.01.30-18.07.20:457][855]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.30-18.07.20:457][855]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/WIP_BuiltData.WIP_BuiltData
+[2023.01.30-18.07.20:457][855]LogContentValidation: Display: Validating World /Game/WIP.WIP
+[2023.01.30-18.16.00:032][ 54]BlueprintLog: New page: Compile Main_Character
+[2023.01.30-18.16.00:062][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.01.30-18.16.19:606][301]BlueprintLog: New page: Compile Main_Character
+[2023.01.30-18.16.19:642][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.01.30-18.16.20:328][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Main_Character" FILE="../../../../../../Users/B1035382/Documents/GitHub/TwonicJMRepo/UnrealProject/Content/Character/Main_Character.uasset" SILENT=true
+[2023.01.30-18.16.20:336][349]LogSavePackage: Moving '../../../../../../Users/B1035382/Documents/GitHub/TwonicJMRepo/UnrealProject/Saved/Main_Character963B862F4359343A633D5790F6AC893C.tmp' to '../../../../../../Users/B1035382/Documents/GitHub/TwonicJMRepo/UnrealProject/Content/Character/Main_Character.uasset'
+[2023.01.30-18.16.20:347][349]AssetCheck: New page: Asset Save: Main_Character
+[2023.01.30-18.16.20:347][349]LogContentValidation: Display: Validating Blueprint /Game/Character/Main_Character.Main_Character
+[2023.01.30-18.16.25:836][999]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.30-18.16.25:840][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-18.16.25:840][999]PIE: New page: PIE session: WIP (30 Jan 2023, 18:16:25)
+[2023.01.30-18.16.25:868][999]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_WIP
+[2023.01.30-18.16.25:869][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001415s)
+[2023.01.30-18.16.25:870][999]LogAIModule: Creating AISystem for world WIP
+[2023.01.30-18.16.25:870][999]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2023.01.30-18.16.25:870][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WIP.WIP to /Game/UEDPIE_0_WIP.WIP (0.002448s)
+[2023.01.30-18.16.25:888][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.01.30-18.16.25:889][999]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.01.30-18.16.25:889][999]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-18.16.25:889][999]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-18.16.25:889][999]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-18.16.25:889][999]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-18.16.25:889][999]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.30-18.16.25:889][999]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.30-18.16.25:889][999]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.30-18.16.25:889][999]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-18.16.25:889][999]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-18.16.25:889][999]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-18.16.25:889][999]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-18.16.25:889][999]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.30-18.16.25:892][999]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.30-18.16.25:892][999]LogAudioMixer: Display: 1: FrontRight
+[2023.01.30-18.16.25:903][999]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.01.30-18.16.25:903][999]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-18.16.25:903][999]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-18.16.25:903][999]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-18.16.25:904][999]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.30-18.16.25:904][999]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.30-18.16.25:904][999]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.30-18.16.25:905][999]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.30-18.16.25:905][999]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.30-18.16.25:905][999]LogInit: FAudioDevice initialized.
+[2023.01.30-18.16.25:905][999]LogAudio: Display: Audio Device (ID: 15) registered with world 'WIP'.
+[2023.01.30-18.16.25:915][999]LogLoad: Game class is 'Game_Mode_1_C'
+[2023.01.30-18.16.25:915][999]LogWorld: Bringing World /Game/UEDPIE_0_WIP.WIP up for play (max tick rate 0) at 2023.01.30-18.16.25
+[2023.01.30-18.16.25:916][999]LogWorld: Bringing up level for play took: 0.000387
+[2023.01.30-18.16.25:916][999]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2023.01.30-18.16.25:917][999]PIE: Server logged in
+[2023.01.30-18.16.25:918][999]PIE: Play in editor total start time 0.079 seconds.
+[2023.01.30-18.16.39:202][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-18.16.39:202][583]LogWorld: BeginTearingDown for /Game/UEDPIE_0_WIP
+[2023.01.30-18.16.39:202][583]LogWorld: UWorld::CleanupWorld for WIP, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-18.16.39:202][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-18.16.39:209][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-18.16.39:213][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-18.16.39:231][583]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.30-18.16.39:232][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.30-18.16.39:233][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.30-18.16.39:235][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-18.16.39:237][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.01.30-18.16.39:271][585]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.01.30-18.16.43:396][ 80]Cmd: SELECT NONE
+[2023.01.30-18.16.44:279][186]Cmd: SELECT NONE
+[2023.01.30-18.16.44:623][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.01.30-18.16.44:857][253]Cmd: SELECT NONE
