@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{75582D5D-DE8A-4198-9005-BCBD46490CF6}</UniqueIdentifier>
+      <UniqueIdentifier>{842E83CB-2DD9-4CC0-AA4C-F9D2A31A4E7A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{86744CDD-3396-4867-A90B-3AA98082FCA2}</UniqueIdentifier>
+      <UniqueIdentifier>{7EE2159C-E84B-4025-A75D-2FCC395EEDD5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\UnrealProject">
-      <UniqueIdentifier>{C8594092-8816-4A03-B669-711482C54A63}</UniqueIdentifier>
+      <UniqueIdentifier>{46D89F6E-C64D-4BF1-83D7-1785CB5E0B71}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealProject\UnrealProject.Build.cs">
       <Filter>Source\UnrealProject</Filter>
