@@ -1,2 +1,2 @@
-C:\Users\B1035382\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
-C:\Users\B1035382\Documents\GitHub\TwonicJMRepo\UnrealProject\Source\UnrealProject\UnrealProject.h
+C:\Users\patri\OneDrive\Documents\GitHub\TwonicJMPatrick\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+C:\Users\patri\OneDrive\Documents\GitHub\TwonicJMPatrick\UnrealProject\Source\UnrealProject\UnrealProject.h
