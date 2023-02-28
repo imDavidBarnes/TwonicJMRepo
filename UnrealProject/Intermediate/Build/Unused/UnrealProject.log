@@ -1,18 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\JourneyManProject\TwonicJMRepo).
-  Parsing headers for UnrealProjectEditor
-    Running UnrealHeaderTool "D:\JourneyManProject\TwonicJMRepo\UnrealProject\UnrealProject.uproject" "D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\patri\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for UnrealProjectEditor in 3.2719109 seconds
   Building UnrealProjectEditor...
   Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 16 processes...
-    [1/6] AttackingEntity.cpp
-    [2/6] UnrealProject.init.gen.cpp
-    [3/6] AttackingEntity.gen.cpp
-    [4/6] UE4Editor-UnrealProject-0022.lib
-       Creating library D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0022.lib and object D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0022.exp
-    [5/6] UE4Editor-UnrealProject-0022.dll
-       Creating library D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0022.suppressed.lib and object D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0022.suppressed.exp
-    [6/6] UnrealProjectEditor.target
-  Total time in Parallel executor: 1.19 seconds
-  Total execution time: 5.12 seconds
+  Building 4 actions with 16 processes...
+    [1/4] Telescope.cpp
+    [2/4] UE4Editor-UnrealProject-0013.lib
+       Creating library D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0013.lib and object D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0013.exp
+    [3/4] UE4Editor-UnrealProject-0013.dll
+       Creating library D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0013.suppressed.lib and object D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0013.suppressed.exp
+    [4/4] UnrealProjectEditor.target
+  Total time in Parallel executor: 1.32 seconds
+  Total execution time: 1.97 seconds

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E36EA25E-5836-4998-AA96-8A8351F47E30}</UniqueIdentifier>
+      <UniqueIdentifier>{35283D34-87E0-4B65-8076-32BA090EF8E3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9F2F53B3-2009-4145-9644-10540B19DB19}</UniqueIdentifier>
+      <UniqueIdentifier>{265DF416-25BA-48E3-B8B7-49E0F9DA3E14}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealProject">
-      <UniqueIdentifier>{A70A601C-3E6B-4EF0-B2E1-B3BAFCC91FA5}</UniqueIdentifier>
+      <UniqueIdentifier>{01C1006F-E237-4599-B8E1-70BB3D716073}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealProject\AttackingEntity.cpp">
       <Filter>Source\UnrealProject</Filter>
@@ -39,6 +39,12 @@
       <Filter>Source\UnrealProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\UnrealProject\Avatar.h">
+      <Filter>Source\UnrealProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealProject\Telescope.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject\Telescope.h">
       <Filter>Source\UnrealProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\UnrealProject\UnrealProject.Build.cs">
