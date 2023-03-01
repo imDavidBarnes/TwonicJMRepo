@@ -17,13 +17,13 @@ public:
 	// Sets default values for this component's properties
 	UAttackingEntity();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AttackStats)
-		float Damage;
+		float Damage{ 3.0f };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AttackStats)
-		float AttackMultiplier;
+		float AttackMultiplier{ 1.0f };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AttackStats)
-		float DefenseMultiplier;
+		float DefenseMultiplier{ 1.0f };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AttackStats)
-		float Knockback;
+		float Knockback{ 2500 };
 
 	UFUNCTION(BlueprintCallable)
 		float GetAttackDamage() { return Damage * AttackMultiplier; }
