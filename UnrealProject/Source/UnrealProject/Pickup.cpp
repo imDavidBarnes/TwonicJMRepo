@@ -2,13 +2,37 @@
 
 
 #include "Pickup.h"
+#include "PlayerCharacter.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
-APickup::APickup()
+APickup::APickup(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	ProxSphere = ObjectInitializer.CreateDefaultSubobject<USphereComponent>(this, TEXT("ProxSphere"));
+	Mesh = ObjectInitializer.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Mesh"));
+
+	RootComponent = Mesh;
+
+	ProxSphere->OnComponentBeginOverlap.AddDynamic(this, &APickup::Prox);
+	ProxSphere->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+}
+
+int APickup::Prox_Implementation(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (Cast<APlayerCharacter>(OtherActor) == nullptr)
+	{
+		return -1;
+	}
+	APlayerCharacter* character = Cast<APlayerCharacter>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+	if (name == "Coin")
+	{
+		character->AddToMoney(quantity);
+	}
+	Destroy();
+	return 0;
 }
 
 // Called when the game starts or when spawned

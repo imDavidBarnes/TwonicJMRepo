@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F0F80373-8B26-4D1A-AC29-0F94EEC04AE5}</UniqueIdentifier>
+      <UniqueIdentifier>{78D7B502-63B1-454A-9FEC-9321A5DA6ACA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{753FB423-33A2-4851-9CBE-C89AF730F078}</UniqueIdentifier>
+      <UniqueIdentifier>{C0C01BFD-D27D-45A5-AC16-FDE047FCF1A1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealProject">
-      <UniqueIdentifier>{4CB19007-ECD8-4B5D-A43F-D99DFA842BCB}</UniqueIdentifier>
+      <UniqueIdentifier>{3FB6EEDA-43B1-4578-B7F9-8F4D70542748}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealProject\AttackingEntity.cpp">
       <Filter>Source\UnrealProject</Filter>
@@ -41,10 +41,22 @@
     <ClInclude Include="..\..\Source\UnrealProject\Avatar.h">
       <Filter>Source\UnrealProject</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealProject\Enemy.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject\Enemy.h">
+      <Filter>Source\UnrealProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\UnrealProject\Pickup.cpp">
       <Filter>Source\UnrealProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\UnrealProject\Pickup.h">
+      <Filter>Source\UnrealProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealProject\PlayerCharacter.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject\PlayerCharacter.h">
       <Filter>Source\UnrealProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\UnrealProject\Telescope.cpp">

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/SphereComponent.h"
+#include "Components/StaticMeshComponent.h"
 #include "Pickup.generated.h"
 
 UCLASS()
@@ -14,13 +15,24 @@ class UNREALPROJECT_API APickup : public AActor
 	
 public:	
 	// Sets default values for this actor's properties
-	APickup();
+	APickup(const FObjectInitializer& ObjectInitializer);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PickupProperties)
 		FString name;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PickupProperties)
+		int32 quantity{ 0 };
 
-	/*UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collisions)
-		USphereComponent* ProxSphere;*/
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = TelescopeProperties)
+		UStaticMeshComponent* Mesh;
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
+		USphereComponent* ProxSphere;
+
+	UFUNCTION(BlueprintNativeEvent, Category = Collision)
+		void Prox(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	virtual int Prox_Implementation(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 protected:
 	// Called when the game starts or when spawned
