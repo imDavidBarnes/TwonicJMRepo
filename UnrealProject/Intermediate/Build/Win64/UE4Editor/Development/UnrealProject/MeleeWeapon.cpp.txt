@@ -1,7 +1,7 @@
-D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
-D:\JourneyManProject\TwonicJMRepo\UnrealProject\Source\UnrealProject\MeleeWeapon.h
-D:\Unreal\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
-D:\Unreal\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-D:\Unreal\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-D:\Unreal\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
-D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\MeleeWeapon.generated.h
+C:\Users\david\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+C:\Users\david\Documents\GitHub\TwonicJMRepo\UnrealProject\Source\UnrealProject\MeleeWeapon.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+C:\Users\david\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\MeleeWeapon.generated.h
