@@ -18,13 +18,16 @@ struct FHitResult;
 
 #define UnrealProject_Source_UnrealProject_Pickup_h_14_SPARSE_DATA
 #define UnrealProject_Source_UnrealProject_Pickup_h_14_RPC_WRAPPERS \
+	virtual void ProxEnd_Implementation(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex); \
 	virtual void Prox_Implementation(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, FHitResult const& SweepResult); \
  \
+	DECLARE_FUNCTION(execProxEnd); \
 	DECLARE_FUNCTION(execProx);
 
 
 #define UnrealProject_Source_UnrealProject_Pickup_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execProxEnd); \
 	DECLARE_FUNCTION(execProx);
 
 
@@ -37,6 +40,13 @@ struct FHitResult;
 		int32 OtherBodyIndex; \
 		bool bFromSweep; \
 		FHitResult SweepResult; \
+	}; \
+	struct Pickup_eventProxEnd_Parms \
+	{ \
+		UPrimitiveComponent* OverlappedComponent; \
+		AActor* OtherActor; \
+		UPrimitiveComponent* OtherComp; \
+		int32 OtherBodyIndex; \
 	};
 
 

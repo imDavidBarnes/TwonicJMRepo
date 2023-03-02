@@ -17,6 +17,7 @@ APickup::APickup(const FObjectInitializer& ObjectInitializer) : Super(ObjectInit
 	RootComponent = Mesh;
 
 	ProxSphere->OnComponentBeginOverlap.AddDynamic(this, &APickup::Prox);
+	ProxSphere->OnComponentEndOverlap.AddDynamic(this, &APickup::ProxEnd);
 	ProxSphere->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
 }
 
@@ -26,12 +27,26 @@ int APickup::Prox_Implementation(UPrimitiveComponent* OverlappedComponent, AActo
 	{
 		return -1;
 	}
+	InRange = true;
 	APlayerCharacter* character = Cast<APlayerCharacter>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
 	if (name == "Coin")
 	{
 		character->AddToMoney(quantity);
+		Destroy();
 	}
-	Destroy();
+	else if (name == "Bomb")
+	{
+	}
+	return 0;
+}
+
+int APickup::ProxEnd_Implementation(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	if (Cast<APlayerCharacter>(OtherActor) == nullptr)
+	{
+		return -1;
+	}
+	InRange = false;
 	return 0;
 }
 

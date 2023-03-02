@@ -1,0 +1,1356 @@
+﻿Log file open, 03/02/23 05:17:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: UnrealProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.194991
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 3800X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Engine.ini]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Engine.ini]
+[2023.03.02-05.17.55:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Engine.ini]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Engine.ini]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.03.02-05.17.55:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Engine.ini]
+[2023.03.02-05.17.55:597][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Engine.ini]
+[2023.03.02-05.17.55:602][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.03.02-05.17.55:602][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.03.02-05.17.55:603][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.02-05.17.55:603][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.03.02-05.17.55:603][  0]LogHAL: Display: Platform has ~ 16 GB [17080774656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.03.02-05.17.55:603][  0]LogInit: Going up to parent DeviceProfile []
+[2023.03.02-05.17.55:603][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.03.02-05.17.55:603][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Scalability.ini]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.03.02-05.17.55:604][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Engine.ini]
+[2023.03.02-05.17.55:604][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Config/Windows/Editor.ini]
+[2023.03.02-05.17.55:604][  0]LogInit: Computer: DESKTOP-LENE5UI
+[2023.03.02-05.17.55:604][  0]LogInit: User: patri
+[2023.03.02-05.17.55:604][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.03.02-05.17.55:604][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.03.02-05.17.55:604][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.03.02-05.17.55:604][  0]LogMemory: Platform Memory Stats for Windows
+[2023.03.02-05.17.55:604][  0]LogMemory: Process Physical Memory: 145.44 MB used, 145.45 MB peak
+[2023.03.02-05.17.55:604][  0]LogMemory: Process Virtual Memory: 130.56 MB used, 130.56 MB peak
+[2023.03.02-05.17.55:604][  0]LogMemory: Physical Memory: 10361.88 MB used,  5927.61 MB free, 16289.50 MB total
+[2023.03.02-05.17.55:604][  0]LogMemory: Virtual Memory: 134211632.00 MB used,  6092.90 MB free, 134217728.00 MB total
+[2023.03.02-05.17.55:609][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.03.02-05.17.55:643][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.03.02-05.17.55:644][  0]LogInit: Using OS detected language (en-GB).
+[2023.03.02-05.17.55:644][  0]LogInit: Using OS detected locale (en-GB).
+[2023.03.02-05.17.55:646][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2023.03.02-05.17.55:811][  0]LogInit: Setting process to per monitor DPI aware
+[2023.03.02-05.17.55:824][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.03.02-05.17.55:835][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.03.02-05.17.55:835][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.03.02-05.17.55:999][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2023.03.02-05.17.56:002][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2023.03.02-05.17.56:002][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.03.02-05.17.56:002][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.03.02-05.17.56:002][  0]LogD3D11RHI: D3D11 adapters:
+[2023.03.02-05.17.56:106][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2023.03.02-05.17.56:106][  0]LogD3D11RHI:       5968/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 2060
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:     DeviceId    : 1f08
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:     SubSysId    : 86f01043
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:     DedicatedVideoMemory : 6257901568 bytes
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:     SharedSystemMemory : 8540387328 bytes
+[2023.03.02-05.17.56:107][  0]LogD3D11RHI:     AdapterLuid : 0 60577
+[2023.03.02-05.17.56:114][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.03.02-05.17.56:114][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
+[2023.03.02-05.17.56:114][  0]LogWindows: EnumDisplayDevices:
+[2023.03.02-05.17.56:114][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2023.03.02-05.17.56:114][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2023.03.02-05.17.56:115][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2023.03.02-05.17.56:115][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2023.03.02-05.17.56:115][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:   Driver Version: 527.56 (internal:31.0.15.2756, unified:527.56)
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:      Driver Date: 12-5-2022
+[2023.03.02-05.17.56:115][  0]LogRHI: Texture pool is 4177 MB (70% of 5968 MB)
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 2060
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     DeviceId    : 1f08
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     SubSysId    : 86f01043
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     DedicatedVideoMemory : 6257901568 bytes
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     SharedSystemMemory : 8540387328 bytes
+[2023.03.02-05.17.56:115][  0]LogD3D11RHI:     AdapterLuid : 0 60577
+[2023.03.02-05.17.56:176][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.03.02-05.17.56:176][  0]LogD3D11RHI: Async texture creation enabled
+[2023.03.02-05.17.56:176][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.03.02-05.17.56:194][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.03.02-05.17.56:216][  0]LogRHI: GeForceNow SDK initialized: 1
+[2023.03.02-05.17.56:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.03.02-05.17.56:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.03.02-05.17.56:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.03.02-05.17.56:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.03.02-05.17.56:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.03.02-05.17.56:498][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.03.02-05.17.56:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.03.02-05.17.56:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.03.02-05.17.56:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.03.02-05.17.56:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.03.02-05.17.56:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.03.02-05.17.56:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.03.02-05.17.56:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.03.02-05.17.56:546][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.03.02-05.17.56:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.03.02-05.17.56:553][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.03.02-05.17.56:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.03.02-05.17.56:565][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.03.02-05.17.56:565][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.03.02-05.17.56:573][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.03.02-05.17.56:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.03.02-05.17.56:580][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.03.02-05.17.56:584][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.03.02-05.17.56:584][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.03.02-05.17.56:590][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.03.02-05.17.56:613][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2023.03.02-05.17.56:638][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.03.02-05.17.56:638][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Intermediate/Shaders/WorkingDirectory/32976/).
+[2023.03.02-05.17.56:638][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/patri/AppData/Local/Temp/UnrealShaderWorkingDir/998C43DD44E3F0A6A74240B4C032ACEE/'.
+[2023.03.02-05.17.56:638][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.03.02-05.17.56:638][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.03.02-05.17.56:638][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.03.02-05.17.57:242][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.03.02-05.17.57:286][  0]LogDerivedDataCache: Loaded boot cache 0.04s 90MB C:/Users/patri/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.03.02-05.17.57:286][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/patri/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2023.03.02-05.17.57:287][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.03.02-05.17.57:287][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.03.02-05.17.57:287][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.02-05.17.57:287][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.03.02-05.17.57:302][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.03.02-05.17.57:302][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.02-05.17.57:302][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.03.02-05.17.57:308][  0]LogDerivedDataCache: Speed tests for C:/Users/patri/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2023.03.02-05.17.57:308][  0]LogDerivedDataCache: Display: Performance to C:/Users/patri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.04ms. RandomReadSpeed=1435.37MBs, RandomWriteSpeed=204.07MBs. Assigned SpeedClass 'Local'
+[2023.03.02-05.17.57:309][  0]LogDerivedDataCache: Using Local data cache path C:/Users/patri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.03.02-05.17.57:309][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.03.02-05.17.57:309][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.03.02-05.17.57:349][  0]LogSlate: Using FreeType 2.10.0
+[2023.03.02-05.17.57:349][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.03.02-05.17.57:349][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2023.03.02-05.17.57:368][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2023.03.02-05.17.57:557][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.02-05.17.57:558][  0]LogInit: Active device profile: [000002280BDB1E00][0000022803BBB0C0 49] Windows
+[2023.03.02-05.17.57:558][  0]LogInit: Profiles: [000002280BDB1E00][0000022803BBB0C0 49] Windows, [000002280BD3B800][0000022803BC7240 49] WindowsNoEditor, [000002280BDB1C00][0000022803BCF3C0 49] WindowsServer, [000002280BD38300][0000022803BD3540 49] WindowsClient, [000002280BDB0400][0000022803BD76C0 49] IOS, [000002280BD3BF00][000002280DB39840 49] iPadAir, [000002280BDB1400][000002280DB3D9C0 49] iPadAir2, [000002280BBBD500][000002280DB44100 49] IPadPro, [000002280BBBD600][000002280DB40140 49] iPadAir3, [000002280BDB3800][000002280DB482C0 49] iPadAir4, [000002280BBBF000][000002280DB4C440 49] iPadMini2, [000002280BDB0C00][000002280DB505C0 49] iPadMini3, [000002280BBBDC00][000002280DB54740 49] iPadMini4, [000002280BDB2800][0000022803BBE880 49] iPadMini5, [000002280BD68E00][000002280DB60AC0 49] iPhone6, [000002280BD68F00][000002280DB58B00 49] iPodTouch6, [000002280BD3BD00][000002280670ADC0 49] iPhone7, [000002280BD3BE00][000002280DB9CE00 49] iPodTouch7, [000002280BD68200][0000022806718F80 49] iPhone5S, [000002280BBBFF00][000002280671D100 49] iPhone6Plus, [000002280BD6AE00][0000022806721280 49] iPhone6S, [000002280BBBD200][000002280DFA1400 49] iPhone6SPlus, [000002280BD3B700][000002280DFA5580 49] iPhone7Plus, [000002280BBBE500][000002280DFA9700 49] iPhoneSE, [000002280BD3A800][000002280DFAD880 49] iPhone8, [000002280BBBC600][0000022806725A00 49] iPhone8Plus, [000002280BD38D00][000002280A701B80 49] iPhoneX, [000002280BBBCC00][000002280A704180 49] iPhoneXS, [000002280BD3A100][000002280A738300 49] iPhoneXSMax, [000002280BBBEA00][000002280A73C480 49] iPhoneXR, [000002280BD3AD00][000002280A740600 49] iPhone11, [000002280BBBF600][000002280D7E4780 49] iPhone11Pro, [000002280BD3A200][000002280DB34900 49] iPhone11ProMax, [000002280BBBD800][000002280DB98A40 49] iPhoneSE2, [000002280BD38A00][0000022803B76B80 49] iPhone12Mini, [000002280BBBF200][0000022803B82CC0 49] iPhone12, [000002280BD3B300][0000022803B94E40 49] iPhone12Pro, [000002280BBBF400][000002280DFF6FC0 49] iPhone12ProMax, [000002280BD3AE00][000002280E00B140 49] iPadPro105, [000002280BBBC700][000002280E0252C0 49] iPadPro129, [000002280BD38700][000002280E143440 49] iPadPro97, [000002280BBBC900][000002280E1475C0 49] iPadPro2_129, [000002280BD39400][000002280E155740 49] iPad5, [000002280BBBFE00][000002280E1598C0 49] iPad6, [000002280BD3A000][000002280E15DA40 49] iPad7, [000002280BBBD000][000002280E161BC0 49] iPad8, [000002280BD38E00][000002280E1641C0 49] iPadPro11, [000002280BBBE000][000002280E168340 49] iPadPro2_11, [000002280BD38C00][000002280DF304C0 49] iPadPro3_129, [000002280BBBC100][000002280DF34640 49] iPadPro4_129, [000002280BD3A700][000002280DF387C0 49] AppleTV, [000002280BBBF300][000002280DF50940 49] AppleTV4K, [000002280BD3BA00][000002280E39CAC0 49] TVOS, [000002280BBBEE00][0000022803B90C00 49] Mac, [000002280BD38B00][000002280E3A0D40 49] MacClient, [000002280BBBF500][000002280E3A4E80 49] MacNoEditor, [000002280BD38F00][000002280E3A8FC0 49] MacServer, [000002280BBBF700][000002280E3B5140 49] Linux, [000002280BD3B400][000002280E3B92C0 49] LinuxAArch64, [000002280BBBF100][000002280EC49440 49] LinuxNoEditor, [000002280BD39000][000002280DF7F5C0 49] LinuxAArch64NoEditor, [000002280BBBCB00][000002280DF83740 49] LinuxClient, [000002280BD3B000][000002280DF878C0 49] LinuxAArch64Client, [000002280BBBEB00][000002280DF8BA40 49] LinuxServer, [000002280BD39B00][000002280E3ADBC0 49] LinuxAArch64Server, [000002280BBBF900][000002280E3BC1C0 49] Android, [000002280BD3BB00][000002280DF9A340 49] Android_Low, [000002280BBBCA00][000002280E1244C0 49] Android_Mid, [000002280BD3B500][000002280E128640 49] Android_High, [000002280BBBEF00][000002280E12C7C0 49] Android_Default, [000002280BDB2400][000002280E130940 49] Android_Adreno4xx, [000002280BD6B700][000002280E134AC0 49] Android_Adreno5xx_Low, [000002280BDB2700][0000022803B7EC40 49] Android_Adreno5xx, [000002280BD6B400][000002280E3B0D80 49] Android_Adreno6xx, [000002280BDB2900][0000022803B7AEC0 49] Android_Adreno6xx_Vulkan, [000002280BD68C00][0000022803B67000 49] Android_Mali_T6xx, [000002280BDB2E00][000002280D7E1140 49] Android_Mali_T7xx, [000002280BD6B500][000002280A74D2C0 49] Android_Mali_T8xx, [000002280BDB1100][000002280A749440 49] Android_Mali_G71, [000002280BD68100][000002280A7455C0 49] Android_Mali_G72, [000002280BDB0800][000002280DB5D740 49] Android_Mali_G72_Vulkan, [000002280BD6BE00][000002280DB658C0 49] Android_Mali_G76, [000002280BDB0600][000002280E139A40 49] Android_Mali_G76_Vulkan, [000002280BD6B900][000002280E13DBC0 49] Android_Mali_G77, [000002280BDB3200][000002280DB701C0 49] Android_Mali_G77_Vulkan, [000002280BD69100][000002280DB74340 49] Android_Mali_G78, [000002280BDB0100][000002280DB784C0 49] Android_Mali_G78_Vulkan, [000002280BD69600][000002280DB7C640 49] Android_Mali_G710, [000002280BDB1800][000002280DB807C0 49] Android_Mali_G710_Vulkan, [000002280BD68800][000002280DB84940 49] Android_Vulkan_SM5, [000002280BDB3600][000002280DB88AC0 49] Android_PowerVR_G6xxx, [000002280BD6AC00][000002280DB8CC40 49] Android_PowerVR_GT7xxx, [000002280BDB3400][000002280DB90DC0 49] Android_PowerVR_GE8xxx, [000002280BD68D00][000002280DB94F40 49] Android_PowerVR_GM9xxx, [000002280BDB2B00][000002280D7DD080 49] Android_PowerVR_GM9xxx_Vulkan, [000002280BBBD100][000002280A6A91C0 49] Android_TegraK1, [000002280BDB3100][000002280A6AD300 49] Android_Unknown_Vulkan, [000002280BBBE600][000002280A6B5480 49] Lumin, [000002280BDB0A00][000002280A6B9600 49] Lumin_Desktop, [000002280BBBE200][000002280A6BD780 49] HoloLens, 
+[2023.03.02-05.17.57:658][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.03.02-05.17.57:658][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.03.02-05.17.57:658][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.03.02-05.17.57:658][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.03.02-05.17.57:658][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.03.02-05.17.57:670][  0]LogNetVersion: UnrealProject 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 742620811)
+[2023.03.02-05.17.57:973][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.03.02-05.17.58:022][  0]LogUObjectArray: 17011 objects as part of root set at end of initial load.
+[2023.03.02-05.17.58:022][  0]LogUObjectAllocator: 4257152 out of 0 bytes used by permanent object pool.
+[2023.03.02-05.17.58:022][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.03.02-05.17.58:229][  0]LogPython: Using Python 3.7.7
+[2023.03.02-05.17.58:646][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 852541704869880CA2CEAE9ABF704F29 | Instance: A0C12AC1412C8A86378AF98FADA06EF2 (DESKTOP-LENE5UI-32976).
+[2023.03.02-05.17.58:767][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.03.02-05.17.58:771][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.03.02-05.17.58:825][  0]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.03.02-05.17.58:877][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.052 s
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: 
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Components/SceneComponent.cpp] [Line: 1826]
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: Stack: 
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa18ab46f9 UE4Editor-Engine.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa174f6bef UE4Editor-Engine.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ff953602f5f UE4Editor-UnrealProject-0008.dll!APickup::APickup() [D:\JourneyManProject\TwonicJMRepo\UnrealProject\Source\UnrealProject\Pickup.cpp:20]
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa20dc61d3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa210e8faf UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa210c5411 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa20f8ddc5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa1da51bea UE4Editor-Core.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa1da715a3 UE4Editor-Core.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa4d196433 UE4Editor-Projects.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa4d19674f UE4Editor-Projects.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ff70bbc5642 UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ff70bbc9000 UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ff70bbc0d2c UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ff70bbc10ba UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ff70bbc40dd UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ff70bbd5984 UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ff70bbd853a UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa5b6c7614 KERNEL32.DLL!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa5b9626a1 ntdll.dll!UnknownFunction []
+[2023.03.02-05.17.58:877][  0]LogOutputDevice: Error: 
+[2023.03.02-05.17.58:884][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2023.03.02-05.17.59:657][  0]LogStats:                    SendNewReport -  0.773 s
+[2023.03.02-05.17.59:657][  0]LogStats:             FDebug::EnsureFailed -  0.832 s
+[2023.03.02-05.17.59:788][  0]SourceControl: Source control is disabled
+[2023.03.02-05.18.00:127][  0]LogUProjectInfo: Found projects:
+[2023.03.02-05.18.00:243][  0]LogOpenImageDenoise: OIDN starting up
+[2023.03.02-05.18.00:280][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.03.02-05.18.00:294][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.02-05.18.00:294][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.02-05.18.00:403][  0]LogCollectionManager: Loaded 0 collections in 0.000667 seconds
+[2023.03.02-05.18.00:458][  0]LogFileCache: Scanning file cache for directory 'D:/JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Collections/' took 0.00s
+[2023.03.02-05.18.00:458][  0]LogFileCache: Scanning file cache for directory 'D:/JourneyManProject/TwonicJMRepo/UnrealProject/Content/Developers/patri/Collections/' took 0.00s
+[2023.03.02-05.18.00:458][  0]LogFileCache: Scanning file cache for directory 'D:/JourneyManProject/TwonicJMRepo/UnrealProject/Content/Collections/' took 0.00s
+[2023.03.02-05.18.00:458][  0]LogEngine: Initializing Engine...
+[2023.03.02-05.18.00:459][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2023.03.02-05.18.00:459][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.03.02-05.18.00:459][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.03.02-05.18.00:551][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.03.02-05.18.00:558][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.03.02-05.18.00:565][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.03.02-05.18.00:567][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.03.02-05.18.00:568][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.03.02-05.18.00:568][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.03.02-05.18.00:568][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.03.02-05.18.00:568][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-05.18.00:568][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-05.18.00:568][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-05.18.00:568][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-05.18.00:568][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-05.18.00:568][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-05.18.00:568][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-05.18.00:568][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-05.18.00:569][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-05.18.00:569][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-05.18.00:569][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-05.18.00:569][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-05.18.00:576][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-05.18.00:576][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-05.18.00:585][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2023.03.02-05.18.00:588][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-05.18.00:590][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-05.18.00:590][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-05.18.00:591][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-05.18.00:591][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-05.18.00:591][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-05.18.00:592][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-05.18.00:592][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-05.18.00:592][  0]LogInit: FAudioDevice initialized.
+[2023.03.02-05.18.00:592][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.03.02-05.18.00:592][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.03.02-05.18.00:658][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/patri/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.03.02-05.18.00:658][  0]LogInit: Texture streaming: Enabled
+[2023.03.02-05.18.00:669][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2023.03.02-05.18.00:672][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.03.02-05.18.00:672][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.03.02-05.18.00:673][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.03.02-05.18.00:697][  0]LogInit: Transaction tracking system initialized
+[2023.03.02-05.18.00:715][  0]BlueprintLog: New page: Editor Load
+[2023.03.02-05.18.00:763][  0]LocalizationService: Localization service is disabled
+[2023.03.02-05.18.00:782][  0]TimingProfiler: Initialize
+[2023.03.02-05.18.00:782][  0]TimingProfiler: OnSessionChanged
+[2023.03.02-05.18.00:782][  0]LoadingProfiler: Initialize
+[2023.03.02-05.18.00:782][  0]LoadingProfiler: OnSessionChanged
+[2023.03.02-05.18.00:782][  0]NetworkingProfiler: Initialize
+[2023.03.02-05.18.00:782][  0]NetworkingProfiler: OnSessionChanged
+[2023.03.02-05.18.00:782][  0]MemoryProfiler: Initialize
+[2023.03.02-05.18.00:782][  0]MemoryProfiler: OnSessionChanged
+[2023.03.02-05.18.00:900][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.03.02-05.18.00:900][  0]LogCook: Display: Mobile HDR setting 1
+[2023.03.02-05.18.01:045][  0]LogFileCache: Scanning file cache for directory 'D:/JourneyManProject/TwonicJMRepo/UnrealProject/Content/' took 0.00s
+[2023.03.02-05.18.01:045][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.03.02-05.18.01:047][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.369
+[2023.03.02-05.18.01:048][  0]Cmd: MAP LOAD FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Empty_Tests.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.02-05.18.01:048][  0]LightingResults: New page: Lighting Build
+[2023.03.02-05.18.01:049][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-05.18.01:049][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-05.18.01:049][  0]MapCheck: New page: Map Check
+[2023.03.02-05.18.01:049][  0]LightingResults: New page: Lighting Build
+[2023.03.02-05.18.01:052][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-05.18.01:055][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.03.02-05.18.01:758][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Empty_Tests'.
+[2023.03.02-05.18.01:759][  0]LogAIModule: Creating AISystem for world Empty_Tests
+[2023.03.02-05.18.01:771][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.02-05.18.01:783][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.03.02-05.18.01:783][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.02-05.18.01:783][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2023.03.02-05.18.01:784][  0]LogFileHelpers: Loading map 'Empty_Tests' took 0.736
+[2023.03.02-05.18.01:785][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.107
+[2023.03.02-05.18.01:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-05.18.01:910][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-05.18.01:917][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-05.18.01:923][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-05.18.01:935][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0092 seconds. Added 3808 classes and 912 folders.
+[2023.03.02-05.18.01:937][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.03.02-05.18.01:939][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.03.02-05.18.01:939][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:939][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.03.02-05.18.01:939][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:939][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2023.03.02-05.18.01:939][  0]LogPakFile: OnPakFileMounted2Time == 0.000045
+[2023.03.02-05.18.01:939][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.03.02-05.18.01:939][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:939][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.03.02-05.18.01:939][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:939][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2023.03.02-05.18.01:939][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2023.03.02-05.18.01:940][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2023.03.02-05.18.01:940][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:940][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2023.03.02-05.18.01:940][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:940][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2023.03.02-05.18.01:940][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2023.03.02-05.18.01:941][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.02-05.18.01:941][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:941][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.03.02-05.18.01:941][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:941][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/StarterContent.upack)
+[2023.03.02-05.18.01:941][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2023.03.02-05.18.01:941][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.03.02-05.18.01:942][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:942][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.03.02-05.18.01:942][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:942][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2023.03.02-05.18.01:942][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:942][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.03.02-05.18.01:942][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:942][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.03.02-05.18.01:942][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:942][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2023.03.02-05.18.01:942][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2023.03.02-05.18.01:943][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.03.02-05.18.01:943][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:943][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.03.02-05.18.01:943][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:943][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2023.03.02-05.18.01:943][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:943][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.03.02-05.18.01:943][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:943][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.03.02-05.18.01:944][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:944][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2023.03.02-05.18.01:944][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:944][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.03.02-05.18.01:944][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:944][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.03.02-05.18.01:944][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:944][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2023.03.02-05.18.01:944][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:945][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.03.02-05.18.01:945][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:945][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.03.02-05.18.01:945][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:945][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2023.03.02-05.18.01:945][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2023.03.02-05.18.01:946][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.03.02-05.18.01:946][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:946][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.03.02-05.18.01:946][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:946][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2023.03.02-05.18.01:946][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2023.03.02-05.18.01:946][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.03.02-05.18.01:946][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:946][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.03.02-05.18.01:946][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:946][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2023.03.02-05.18.01:946][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:947][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.02-05.18.01:947][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:947][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.03.02-05.18.01:947][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:947][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2023.03.02-05.18.01:947][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2023.03.02-05.18.01:948][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.03.02-05.18.01:948][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:948][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.03.02-05.18.01:948][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:948][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2023.03.02-05.18.01:948][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:949][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.03.02-05.18.01:949][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:949][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.03.02-05.18.01:949][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:949][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2023.03.02-05.18.01:949][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:949][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.03.02-05.18.01:949][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:949][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.03.02-05.18.01:949][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:949][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2023.03.02-05.18.01:949][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:950][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.03.02-05.18.01:950][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:950][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.03.02-05.18.01:950][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:950][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2023.03.02-05.18.01:950][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:951][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.03.02-05.18.01:951][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:951][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.03.02-05.18.01:951][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:951][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2023.03.02-05.18.01:951][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2023.03.02-05.18.01:951][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.02-05.18.01:951][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:951][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.03.02-05.18.01:951][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:951][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2023.03.02-05.18.01:951][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:952][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.02-05.18.01:952][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:952][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.03.02-05.18.01:952][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:952][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2023.03.02-05.18.01:952][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:953][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.03.02-05.18.01:953][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:953][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.03.02-05.18.01:953][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:953][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2023.03.02-05.18.01:953][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:953][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.03.02-05.18.01:953][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:953][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.03.02-05.18.01:953][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:953][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2023.03.02-05.18.01:953][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:954][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2023.03.02-05.18.01:954][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:954][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2023.03.02-05.18.01:954][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:954][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2023.03.02-05.18.01:954][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:955][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.03.02-05.18.01:955][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:955][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.03.02-05.18.01:955][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:955][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2023.03.02-05.18.01:955][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.01:955][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.02-05.18.01:955][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:955][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.03.02-05.18.01:955][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:955][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2023.03.02-05.18.01:956][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2023.03.02-05.18.01:956][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.03.02-05.18.01:956][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.02-05.18.01:956][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.03.02-05.18.01:956][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Unreal/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.03.02-05.18.01:956][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Unreal/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2023.03.02-05.18.01:956][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.02-05.18.02:011][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.03.02-05.18.02:012][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2023.03.02-05.18.02:078][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.03.02-05.18.02:079][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.03.02-05.18.02:080][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.03.02-05.18.02:150][  0]LogRenderer: Reallocating scene render targets to support 1208x552 Format 10 NumSamples 1 (Frame:1).
+[2023.03.02-05.18.02:186][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.02-05.18.02:294][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.03.02-05.18.02:294][  0]LogLoad: (Engine Initialization) Total time: 7.62 seconds
+[2023.03.02-05.18.02:294][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.03.02-05.18.02:331][  0]LogAssetRegistry: Asset discovery search completed in 4.9637 seconds
+[2023.03.02-05.18.02:336][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2023.03.02-05.18.02:338][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.03.02-05.18.02:438][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/JourneyManProject/TwonicJMRepo/UnrealProject/Content/' took 0.13s
+[2023.03.02-05.18.03:308][ 99]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.02-05.18.05:564][279]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interactables/Pickups/BP_Coin.BP_Coin
+[2023.03.02-05.18.05:657][279]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2023.03.02-05.18.07:644][408]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-05.18.07:644][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-05.18.07:715][408]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interactables/Pickups/BP_Coin.BP_Coin
+[2023.03.02-05.18.08:061][408]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.03.02-05.18.23:465][948]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.03.02-05.18.29:982][599]LogRenderer: Reallocating scene render targets to support 1208x692 Format 10 NumSamples 1 (Frame:1).
+[2023.03.02-05.19.38:755][488]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.02-05.19.38:772][488]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.02-05.19.43:493][ 31]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2023.03.02-05.19.43:493][ 31]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.02-05.20.01:114][817]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.02-05.20.01:139][817]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.02-05.20.03:542][ 98]LogContentBrowser: Attempting asset rename: NewFolder -> Textures
+[2023.03.02-05.20.03:542][ 98]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.02-05.20.06:222][367]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.02-05.20.06:239][367]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.02-05.20.08:917][677]LogContentBrowser: Attempting asset rename: NewFolder -> Pickups
+[2023.03.02-05.20.08:918][677]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.02-05.20.19:488][321]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/patri/Downloads/Coin.png)
+[2023.03.02-05.20.19:492][321]LogTexture: Display: Building textures: Coin (BGRA8, 225X195)
+[2023.03.02-05.20.21:323][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Empty_Tests" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Empty_Tests.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.03.02-05.20.21:348][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.03.02-05.20.21:408][483]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Empty_Tests09A2C8B84B213275A246138A95753864.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Empty_Tests.umap'
+[2023.03.02-05.20.21:443][483]AssetCheck: New page: Asset Save: Empty_Tests
+[2023.03.02-05.20.21:443][483]LogContentValidation: Display: Validating World /Game/Empty_Tests.Empty_Tests
+[2023.03.02-05.20.25:754][909]BlueprintLog: New page: Compile BP_Coin
+[2023.03.02-05.20.25:784][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.03.02-05.20.25:806][909]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.03.02-05.20.26:311][941]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BP_Coin11141CA34F611EFCC0C5C092352D5BF1.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/BP_Coin.uasset'
+[2023.03.02-05.20.26:320][941]AssetCheck: New page: Asset Save: BP_Coin
+[2023.03.02-05.20.26:321][941]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/BP_Coin.BP_Coin
+[2023.03.02-05.22.15:797][242]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Blueprints/Bombs/BombDatabase.BombDatabase
+[2023.03.02-05.22.20:252][663]LogSlate: Window 'BombDatabase' being destroyed
+[2023.03.02-05.22.26:159][216]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Bombs/BombEnum.BombEnum
+[2023.03.02-05.22.28:020][373]LogSlate: Window 'BombEnum' being destroyed
+[2023.03.02-05.22.29:693][534]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Bombs/BombStruct.BombStruct
+[2023.03.02-05.22.33:525][899]LogSlate: Window 'BombStruct' being destroyed
+[2023.03.02-05.22.37:544][321]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Bombs/PickupWidget.PickupWidget
+[2023.03.02-05.22.41:852][701]LogSlate: Window 'PickupWidget' being destroyed
+[2023.03.02-05.22.50:474][434]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-05.22.50:474][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-05.22.50:978][472]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-05.22.50:978][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-05.22.50:987][472]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-05.22.50:987][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-05.22.55:427][982]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Bombs/BombPickup.BombPickup
+[2023.03.02-05.22.58:448][240]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-05.22.58:448][240]LogEditorClassViewer: Warning: Class /Game/Blueprints/Bombs/BombPickup.PLACEHOLDER-CLASS__BP_Player_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-05.23.08:535][341]LogSlate: Window 'BombPickup' being destroyed
+[2023.03.02-05.23.18:347][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombStruct.BombStruct' ref from Metadata '/Game/Blueprints/Bombs/BombStruct.PackageMetaData'
+[2023.03.02-05.23.18:355][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.ExplosiveBomb:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.18:355][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.ExplosiveBomb_C' ref from Metadata '/Game/Blueprints/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.18:355][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C:BndEvt__ExplosiveBomb_Explosion_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.18:355][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.18:355][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C:BndEvt__ExplosiveBomb_EnemyCollision_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.18:355][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.18:355][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C' ref from Metadata '/Game/Blueprints/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.18:355][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.ExplosiveBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.18:362][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/FireBomb.FireBomb_C' ref from Metadata '/Game/Blueprints/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.18:362][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/FireBomb.SKEL_FireBomb_C:BndEvt__ExplosiveBomb_Explosion_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.18:362][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/FireBomb.SKEL_FireBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.18:362][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/FireBomb.SKEL_FireBomb_C:BndEvt__ExplosiveBomb_EnemyCollision_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.18:362][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/FireBomb.SKEL_FireBomb_C:BndEvt__FireBomb_Fire_K2Node_ComponentBoundEvent_0_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.18:362][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/FireBomb.SKEL_FireBomb_C:FireDMG' ref from Metadata '/Game/Blueprints/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.18:362][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/FireBomb.SKEL_FireBomb_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.18:362][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/FireBomb.SKEL_FireBomb_C' ref from Metadata '/Game/Blueprints/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.18:362][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/FireBomb.FireBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.18:373][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombEnum.BombEnum' ref from Metadata '/Game/Blueprints/Bombs/BombEnum.PackageMetaData'
+[2023.03.02-05.23.18:374][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PickupWidget.PickupWidget_C' ref from Metadata '/Game/Blueprints/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.18:374][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PickupWidget.PickupWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.18:374][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PickupWidget.PickupWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.18:374][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PickupWidget.PickupWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.18:374][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PickupWidget.SKEL_PickupWidget_C:PreConstruct' ref from Metadata '/Game/Blueprints/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.18:374][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PickupWidget.SKEL_PickupWidget_C:Construct' ref from Metadata '/Game/Blueprints/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.18:374][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PickupWidget.SKEL_PickupWidget_C:Tick' ref from Metadata '/Game/Blueprints/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.18:374][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PickupWidget.SKEL_PickupWidget_C' ref from Metadata '/Game/Blueprints/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.BombPickup_C' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.BombPickup:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.BombPickup:PoisonBomb.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.BombPickup:FireBomb.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.BombPickup:IceBomb.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.BombPickup:ExplosiveBomb.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.SKEL_BombPickup_C:BndEvt__BombPickup_Sphere1_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.SKEL_BombPickup_C:BndEvt__BombPickup_Sphere1_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.SKEL_BombPickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.SKEL_BombPickup_C:PickupBomb' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.SKEL_BombPickup_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.SKEL_BombPickup_C' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:375][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/BombPickup.BombPickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.18:377][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/IceBomb.IceBomb_C' ref from Metadata '/Game/Blueprints/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.18:377][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/IceBomb.SKEL_IceBomb_C:BndEvt__ExplosiveBomb_Explosion_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.18:377][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/IceBomb.SKEL_IceBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.18:377][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/IceBomb.SKEL_IceBomb_C:BndEvt__ExplosiveBomb_EnemyCollision_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.18:377][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/IceBomb.SKEL_IceBomb_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.18:377][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/IceBomb.SKEL_IceBomb_C' ref from Metadata '/Game/Blueprints/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.18:377][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/IceBomb.IceBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.18:378][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PoisonBomb.PoisonBomb_C' ref from Metadata '/Game/Blueprints/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.18:378][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PoisonBomb.SKEL_PoisonBomb_C:BndEvt__ExplosiveBomb_Explosion_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.18:378][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PoisonBomb.SKEL_PoisonBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.18:378][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PoisonBomb.SKEL_PoisonBomb_C:BndEvt__ExplosiveBomb_EnemyCollision_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.18:378][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PoisonBomb.SKEL_PoisonBomb_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.18:378][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PoisonBomb.SKEL_PoisonBomb_C' ref from Metadata '/Game/Blueprints/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.18:378][123]LogMetaData: Removing '/Game/Blueprints/Interactables/Bombs/PoisonBomb.PoisonBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.18:400][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombStructE07AA7FC4359D802592CF886ED608654.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/BombStruct.uasset'
+[2023.03.02-05.23.18:574][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/BombStruct" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombStruct.uasset" SILENT=true
+[2023.03.02-05.23.18:575][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombStructEC04D8204FE9437D294648AB302D1060.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombStruct.uasset'
+[2023.03.02-05.23.18:620][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/ExplosiveBombED5BDF0C4B0865D00AD1C38C8C195494.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/ExplosiveBomb.uasset'
+[2023.03.02-05.23.18:830][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/ExplosiveBomb" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/ExplosiveBomb.uasset" SILENT=true
+[2023.03.02-05.23.18:831][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/ExplosiveBomb1718B5EA4C39628D1DCD3AB55E6E63D6.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/ExplosiveBomb.uasset'
+[2023.03.02-05.23.18:909][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/ExplosionFCCAC044413F27B9267796AB17B61895.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/Explosion.uasset'
+[2023.03.02-05.23.19:105][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/Explosion" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/Explosion.uasset" SILENT=true
+[2023.03.02-05.23.19:106][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/ExplosionC4F854FC461A19E30DE37BA16E989956.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/Explosion.uasset'
+[2023.03.02-05.23.19:107][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interactables/Bombs/Fire" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/Fire.uasset" SILENT=true
+[2023.03.02-05.23.19:115][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Fire2DD317E6462CE94C3684F1A80000CE9E.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/Fire.uasset'
+[2023.03.02-05.23.19:297][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/Fire" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/Fire.uasset" SILENT=true
+[2023.03.02-05.23.19:297][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Fire1245AB0B40FB9456C8807C96089D2684.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/Fire.uasset'
+[2023.03.02-05.23.19:326][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/FireBombB44F790E4AD5760F40A75DB01CA865D4.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/FireBomb.uasset'
+[2023.03.02-05.23.19:524][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/FireBomb" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/FireBomb.uasset" SILENT=true
+[2023.03.02-05.23.19:525][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/FireBomb48EE8370488A3F0A749555A210999B33.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/FireBomb.uasset'
+[2023.03.02-05.23.19:527][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombDatabaseF92CCC5244616E383B29079533213BF8.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/BombDatabase.uasset'
+[2023.03.02-05.23.19:724][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/BombDatabase" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombDatabase.uasset" SILENT=true
+[2023.03.02-05.23.19:725][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombDatabase3B5FB95146876B0840662D94A49A5DD1.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombDatabase.uasset'
+[2023.03.02-05.23.19:727][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombEnum630EBBFA410DBB6F39DBAEB8F8941A91.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/BombEnum.uasset'
+[2023.03.02-05.23.19:947][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/BombEnum" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombEnum.uasset" SILENT=true
+[2023.03.02-05.23.19:948][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombEnum2D77F0414537DCC085194087E4100B9B.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombEnum.uasset'
+[2023.03.02-05.23.19:953][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/PickupWidgetB55EF01745F552E57598D9AD227A3BA9.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/PickupWidget.uasset'
+[2023.03.02-05.23.20:181][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/PickupWidget" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/PickupWidget.uasset" SILENT=true
+[2023.03.02-05.23.20:182][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/PickupWidgetCD96F1424FC0B0C75A1DA19894F56460.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/PickupWidget.uasset'
+[2023.03.02-05.23.20:221][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombPickupF90C6FAF4FCB3BA2410F17B7E837F5DF.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/BombPickup.uasset'
+[2023.03.02-05.23.20:374][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/BombPickup" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombPickup.uasset" SILENT=true
+[2023.03.02-05.23.20:375][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombPickup3E60CDC748E5156A47FBEE87C6B4081C.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombPickup.uasset'
+[2023.03.02-05.23.20:424][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/IceBomb988058F64F19AECB8C71B39110B2E4AD.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/IceBomb.uasset'
+[2023.03.02-05.23.20:630][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/IceBomb" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/IceBomb.uasset" SILENT=true
+[2023.03.02-05.23.20:631][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/IceBomb7BD39B974CEF78E6220623965601FE81.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/IceBomb.uasset'
+[2023.03.02-05.23.20:667][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/PoisonBomb767069824C2AA7F3F2BF778665BEFDD3.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Bombs/PoisonBomb.uasset'
+[2023.03.02-05.23.20:835][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/PoisonBomb" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/PoisonBomb.uasset" SILENT=true
+[2023.03.02-05.23.20:836][123]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/PoisonBombC21341E342F87E0F367320A2410C02C8.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/PoisonBomb.uasset'
+[2023.03.02-05.23.22:202][123]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.02-05.23.22:202][123]LogContentValidation: Display: Validating UserDefinedStruct /Game/Blueprints/Interactables/Bombs/BombStruct.BombStruct
+[2023.03.02-05.23.22:202][123]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Bombs/ExplosiveBomb.ExplosiveBomb
+[2023.03.02-05.23.22:202][123]LogContentValidation: Display: Validating NiagaraSystem /Game/Blueprints/Interactables/Bombs/Explosion.Explosion
+[2023.03.02-05.23.22:202][123]LogContentValidation: Display: Validating NiagaraSystem /Game/Blueprints/Interactables/Bombs/Fire.Fire
+[2023.03.02-05.23.22:202][123]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Bombs/FireBomb.FireBomb
+[2023.03.02-05.23.22:202][123]LogContentValidation: Display: Validating DataTable /Game/Blueprints/Interactables/Bombs/BombDatabase.BombDatabase
+[2023.03.02-05.23.22:202][123]LogContentValidation: Display: Validating UserDefinedEnum /Game/Blueprints/Interactables/Bombs/BombEnum.BombEnum
+[2023.03.02-05.23.22:202][123]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Interactables/Bombs/PickupWidget.PickupWidget
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Bombs/BombPickup.BombPickup
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Bombs/IceBomb.IceBomb
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Bombs/PoisonBomb.PoisonBomb
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombStruct.BombStruct
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/ExplosiveBomb.ExplosiveBomb_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/ExplosiveBomb.Default__ExplosiveBomb_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/ExplosiveBomb.ExplosiveBomb
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/Explosion.Explosion
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/Fire.Fire
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/FireBomb.FireBomb_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/FireBomb.Default__FireBomb_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/FireBomb.FireBomb
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombDatabase.BombDatabase
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombEnum.BombEnum
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PickupWidget.PickupWidget_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PickupWidget.Default__PickupWidget_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PickupWidget.PickupWidget
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombPickup.BombPickup_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombPickup.Default__BombPickup_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombPickup.BombPickup
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/IceBomb.IceBomb_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/IceBomb.Default__IceBomb_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/IceBomb.IceBomb
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PoisonBomb.PoisonBomb_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PoisonBomb.Default__PoisonBomb_C
+[2023.03.02-05.23.22:203][123]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PoisonBomb.PoisonBomb
+[2023.03.02-05.23.32:329][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombStruct.BombStruct' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombStruct.PackageMetaData'
+[2023.03.02-05.23.32:334][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.ExplosiveBomb_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.32:334][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.ExplosiveBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.32:334][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.32:334][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C:BndEvt__ExplosiveBomb_Explosion_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.32:334][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.32:334][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C:BndEvt__ExplosiveBomb_EnemyCollision_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.32:334][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.SKEL_ExplosiveBomb_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.32:334][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.ExplosiveBomb:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Interactables/Bombs/ExplosiveBomb.PackageMetaData'
+[2023.03.02-05.23.32:347][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.FireBomb_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.32:347][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.FireBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.32:347][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.SKEL_FireBomb_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.32:347][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.SKEL_FireBomb_C:BndEvt__ExplosiveBomb_Explosion_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.32:347][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.SKEL_FireBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.32:347][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.SKEL_FireBomb_C:BndEvt__ExplosiveBomb_EnemyCollision_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.32:347][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.SKEL_FireBomb_C:BndEvt__FireBomb_Fire_K2Node_ComponentBoundEvent_0_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.32:347][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.SKEL_FireBomb_C:FireDMG' ref from Metadata '/Game/Blueprints/Interactables/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.32:347][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.SKEL_FireBomb_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Interactables/Bombs/FireBomb.PackageMetaData'
+[2023.03.02-05.23.32:355][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombEnum.BombEnum' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombEnum.PackageMetaData'
+[2023.03.02-05.23.32:359][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PickupWidget.PickupWidget_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.32:360][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PickupWidget.SKEL_PickupWidget_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.32:360][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PickupWidget.SKEL_PickupWidget_C:PreConstruct' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.32:360][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PickupWidget.SKEL_PickupWidget_C:Construct' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.32:360][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PickupWidget.SKEL_PickupWidget_C:Tick' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.32:360][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PickupWidget.PickupWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.32:360][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PickupWidget.PickupWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.32:360][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PickupWidget.PickupWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PickupWidget.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.SKEL_BombPickup_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.SKEL_BombPickup_C:BndEvt__BombPickup_Sphere1_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.SKEL_BombPickup_C:BndEvt__BombPickup_Sphere1_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.SKEL_BombPickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.SKEL_BombPickup_C:PickupBomb' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.SKEL_BombPickup_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup:PoisonBomb.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup:FireBomb.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup:IceBomb.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:364][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup:ExplosiveBomb.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Interactables/Bombs/BombPickup.PackageMetaData'
+[2023.03.02-05.23.32:368][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.IceBomb_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.32:368][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.IceBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.32:368][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.SKEL_IceBomb_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.32:368][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.SKEL_IceBomb_C:BndEvt__ExplosiveBomb_Explosion_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.32:368][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.SKEL_IceBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.32:368][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.SKEL_IceBomb_C:BndEvt__ExplosiveBomb_EnemyCollision_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.32:368][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.SKEL_IceBomb_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Interactables/Bombs/IceBomb.PackageMetaData'
+[2023.03.02-05.23.32:373][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PoisonBomb.PoisonBomb_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.32:373][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PoisonBomb.PoisonBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.32:373][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PoisonBomb.SKEL_PoisonBomb_C' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.32:373][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PoisonBomb.SKEL_PoisonBomb_C:BndEvt__ExplosiveBomb_Explosion_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.32:373][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PoisonBomb.SKEL_PoisonBomb_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.32:373][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PoisonBomb.SKEL_PoisonBomb_C:BndEvt__ExplosiveBomb_EnemyCollision_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.32:373][ 11]LogMetaData: Removing '/Game/Blueprints/Interactables/Pickups/Bombs/PoisonBomb.SKEL_PoisonBomb_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Interactables/Bombs/PoisonBomb.PackageMetaData'
+[2023.03.02-05.23.32:400][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombStruct5EB98B724957A99AF19F1797342020E0.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/BombStruct.uasset'
+[2023.03.02-05.23.32:625][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/ExplosiveBombD7E3D6B4442F5981C7E6298613BE4695.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.uasset'
+[2023.03.02-05.23.32:922][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Explosion7AD2EBBC410C48C6300260B7564997E3.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/Explosion.uasset'
+[2023.03.02-05.23.33:140][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Fire341B47C8479FF735D65CD89110E26A3F.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/Fire.uasset'
+[2023.03.02-05.23.33:342][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/FireBombC4D1156546F2DB18A02A4FA660322182.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/FireBomb.uasset'
+[2023.03.02-05.23.33:582][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombDatabase33F061694DCC9BACD2910A81B3AAE9D9.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/BombDatabase.uasset'
+[2023.03.02-05.23.33:782][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombEnumF482E2CD42F18CBC4AF215BE66766A20.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/BombEnum.uasset'
+[2023.03.02-05.23.34:001][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/PickupWidgetD03464934C082668F521F1A0C616A036.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/PickupWidget.uasset'
+[2023.03.02-05.23.34:229][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombPickup01FB47F540C4462B2CA243A695F18D9F.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/BombPickup.uasset'
+[2023.03.02-05.23.34:459][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/IceBombFAF10D2240213EB2C74CCC948D516FA4.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/IceBomb.uasset'
+[2023.03.02-05.23.34:686][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/PoisonBomb36295E094D7703AD0C6013B22BC65755.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/PoisonBomb.uasset'
+[2023.03.02-05.23.35:384][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2023.03.02-05.23.35:452][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2023.03.02-05.23.35:467][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.03.02-05.23.35:481][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.03.02-05.23.35:495][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.02-05.23.35:508][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.03.02-05.23.35:522][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.03.02-05.23.35:536][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.02-05.23.35:550][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.03.02-05.23.35:563][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.02-05.23.35:576][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.02-05.23.35:598][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.03.02-05.23.35:612][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/BombDatabase.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/BombEnum.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/BombPickup.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/BombStruct.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/Explosion.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/ExplosiveBomb.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/Fire.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/FireBomb.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/IceBomb.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/PickupWidget.uasset'
+[2023.03.02-05.23.35:771][ 11]SourceControl: rm 'UnrealProject/Content/Blueprints/Interactables/Bombs/PoisonBomb.uasset'
+[2023.03.02-05.23.35:899][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/BombStruct" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombStruct.uasset" SILENT=true
+[2023.03.02-05.23.35:900][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombStruct7DC3A377463CFC031711818043B2BBFD.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombStruct.uasset'
+[2023.03.02-05.23.35:900][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/ExplosiveBomb" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/ExplosiveBomb.uasset" SILENT=true
+[2023.03.02-05.23.35:901][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/ExplosiveBomb23F7A8284AA9A721F7C1C4AEE5FD8E7E.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/ExplosiveBomb.uasset'
+[2023.03.02-05.23.35:901][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/Explosion" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/Explosion.uasset" SILENT=true
+[2023.03.02-05.23.35:902][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/ExplosionD4B63FF044DBFD4C552BCDBC239C7730.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/Explosion.uasset'
+[2023.03.02-05.23.35:902][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/Fire" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/Fire.uasset" SILENT=true
+[2023.03.02-05.23.35:903][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/FireAE2751024F5B9F9FFF7EFEA7B99D293B.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/Fire.uasset'
+[2023.03.02-05.23.35:904][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/FireBomb" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/FireBomb.uasset" SILENT=true
+[2023.03.02-05.23.35:904][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/FireBomb32F656E849FC45D41D541C9481E7E7C8.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/FireBomb.uasset'
+[2023.03.02-05.23.35:905][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/BombDatabase" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombDatabase.uasset" SILENT=true
+[2023.03.02-05.23.35:905][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombDatabase775E80F0411E374E7B6F17AD4F534C67.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombDatabase.uasset'
+[2023.03.02-05.23.35:906][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/BombEnum" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombEnum.uasset" SILENT=true
+[2023.03.02-05.23.35:906][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombEnum19EFD4F54B250A155C9821B07F999059.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombEnum.uasset'
+[2023.03.02-05.23.35:907][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/PickupWidget" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/PickupWidget.uasset" SILENT=true
+[2023.03.02-05.23.35:908][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/PickupWidget01B25BBF46AF682D011F49B1AEFC045D.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/PickupWidget.uasset'
+[2023.03.02-05.23.35:909][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/BombPickup" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombPickup.uasset" SILENT=true
+[2023.03.02-05.23.35:909][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/BombPickup5089E50447AA1C2BA24D099444879A79.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/BombPickup.uasset'
+[2023.03.02-05.23.35:910][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/IceBomb" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/IceBomb.uasset" SILENT=true
+[2023.03.02-05.23.35:911][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/IceBomb9194A5FA4442F858FF60A98F9D93260A.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/IceBomb.uasset'
+[2023.03.02-05.23.35:912][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bombs/PoisonBomb" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/PoisonBomb.uasset" SILENT=true
+[2023.03.02-05.23.35:913][ 11]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/PoisonBomb8FCBF5874B76699DF3E1E9AA382CA347.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Bombs/PoisonBomb.uasset'
+[2023.03.02-05.23.36:001][ 11]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating UserDefinedStruct /Game/Blueprints/Interactables/Pickups/Bombs/BombStruct.BombStruct
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.ExplosiveBomb
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating NiagaraSystem /Game/Blueprints/Interactables/Pickups/Bombs/Explosion.Explosion
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating NiagaraSystem /Game/Blueprints/Interactables/Pickups/Bombs/Fire.Fire
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.FireBomb
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating DataTable /Game/Blueprints/Interactables/Pickups/Bombs/BombDatabase.BombDatabase
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating UserDefinedEnum /Game/Blueprints/Interactables/Pickups/Bombs/BombEnum.BombEnum
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Interactables/Pickups/Bombs/PickupWidget.PickupWidget
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.IceBomb
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/PoisonBomb.PoisonBomb
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombStruct.BombStruct
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/ExplosiveBomb.ExplosiveBomb_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/ExplosiveBomb.Default__ExplosiveBomb_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/ExplosiveBomb.ExplosiveBomb
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/Explosion.Explosion
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/Fire.Fire
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/FireBomb.FireBomb_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/FireBomb.Default__FireBomb_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/FireBomb.FireBomb
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombDatabase.BombDatabase
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombEnum.BombEnum
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PickupWidget.PickupWidget_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PickupWidget.Default__PickupWidget_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PickupWidget.PickupWidget
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombPickup.BombPickup_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombPickup.Default__BombPickup_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/BombPickup.BombPickup
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/IceBomb.IceBomb_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/IceBomb.Default__IceBomb_C
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/IceBomb.IceBomb
+[2023.03.02-05.23.36:001][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PoisonBomb.PoisonBomb_C
+[2023.03.02-05.23.36:002][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PoisonBomb.Default__PoisonBomb_C
+[2023.03.02-05.23.36:002][ 11]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/Bombs/PoisonBomb.PoisonBomb
+[2023.03.02-05.23.41:108][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.03.02-05.23.46:137][522]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.02-05.23.51:600][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Empty_Tests" FILE="../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Empty_Tests.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.03.02-05.23.51:614][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.02-05.23.51:672][ 31]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/Empty_TestsAFE62ADD47CB35302D7EB58BE9588003.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Empty_Tests.umap'
+[2023.03.02-05.23.51:690][ 31]AssetCheck: New page: Asset Save: Empty_Tests
+[2023.03.02-05.23.51:690][ 31]LogContentValidation: Display: Validating World /Game/Empty_Tests.Empty_Tests
+[2023.03.02-05.24.21:599][148]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.ExplosiveBomb
+[2023.03.02-05.24.24:922][460]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.02-05.24.24:940][460]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-05.24.28:103][813]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.ExplosiveBomb from Actor to Pickup...
+[2023.03.02-05.24.28:112][813]BlueprintLog: New page: Compile ExplosiveBomb
+[2023.03.02-05.24.28:158][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.03.02-05.24.29:317][935]BlueprintLog: New page: Compile ExplosiveBomb
+[2023.03.02-05.24.29:365][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.03.02-05.24.30:071][969]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/ExplosiveBombA2CBBE7348B82AEE124C39BBEA1359B4.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.uasset'
+[2023.03.02-05.24.30:120][969]AssetCheck: New page: Asset Save: ExplosiveBomb
+[2023.03.02-05.24.30:121][969]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.ExplosiveBomb
+[2023.03.02-05.24.33:614][295]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.FireBomb
+[2023.03.02-05.24.35:848][494]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.02-05.24.35:866][494]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-05.24.38:653][809]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.FireBomb from Actor to Pickup...
+[2023.03.02-05.24.38:662][809]BlueprintLog: New page: Compile FireBomb
+[2023.03.02-05.24.38:711][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.03.02-05.24.39:759][903]BlueprintLog: New page: Compile FireBomb
+[2023.03.02-05.24.39:807][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.03.02-05.24.40:383][937]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/FireBomb0E745452447ADB63639CFB871A543D38.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/FireBomb.uasset'
+[2023.03.02-05.24.40:393][937]AssetCheck: New page: Asset Save: FireBomb
+[2023.03.02-05.24.40:393][937]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.FireBomb
+[2023.03.02-05.24.49:349][814]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.IceBomb
+[2023.03.02-05.24.55:150][371]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.02-05.24.55:168][371]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-05.24.59:950][904]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.IceBomb from Actor to Pickup...
+[2023.03.02-05.24.59:959][904]BlueprintLog: New page: Compile IceBomb
+[2023.03.02-05.25.00:004][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.03.02-05.25.01:069][996]BlueprintLog: New page: Compile IceBomb
+[2023.03.02-05.25.01:113][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.03.02-05.25.01:751][ 52]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/IceBomb4B6537474A55416DC058CC8B7984C564.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/IceBomb.uasset'
+[2023.03.02-05.25.01:761][ 52]AssetCheck: New page: Asset Save: IceBomb
+[2023.03.02-05.25.01:761][ 52]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/IceBomb.IceBomb
+[2023.03.02-05.25.05:579][421]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.02-05.25.05:598][421]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-05.25.09:939][928]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.ExplosiveBomb from Pickup to BombPickup_C...
+[2023.03.02-05.25.09:947][928]LogBlueprint: Warning: [AssetLog] D:\JourneyManProject\TwonicJMRepo\UnrealProject\Content\Blueprints\Interactables\Pickups\Bombs\ExplosiveBomb.uasset: [Compiler] Found a component variable with a conflicting name (Sphere) - changed to Sphere_0.
+[2023.03.02-05.25.09:953][928]BlueprintLog: New page: Compile ExplosiveBomb
+[2023.03.02-05.25.09:972][928]LogProperty: Warning: Serialized Class /Script/Engine.SphereComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup_C:Sphere
+    Item = SphereComponent /Engine/Transient.World_19:PersistentLevel.REINST_ExplosiveBomb_C_1.TRASH_SphereComponent_16
+[2023.03.02-05.25.09:972][928]LogProperty: Warning: Serialized Class /Script/Engine.SphereComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup_C:Sphere
+    Item = SphereComponent /Engine/Transient.World_8:PersistentLevel.REINST_ExplosiveBomb_C_0.TRASH_SphereComponent_10
+[2023.03.02-05.25.10:006][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.03.02-05.25.11:078][ 23]BlueprintLog: New page: Compile ExplosiveBomb
+[2023.03.02-05.25.11:137][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.03.02-05.25.11:618][ 56]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/ExplosiveBomb71E78CA641E6AB8ED1AC49B73CD08809.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.uasset'
+[2023.03.02-05.25.11:629][ 56]AssetCheck: New page: Asset Save: ExplosiveBomb
+[2023.03.02-05.25.11:629][ 56]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/ExplosiveBomb.ExplosiveBomb
+[2023.03.02-05.25.12:522][140]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.02-05.25.12:541][140]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-05.25.15:216][437]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.FireBomb from Pickup to BombPickup_C...
+[2023.03.02-05.25.15:222][437]LogBlueprint: Warning: [AssetLog] D:\JourneyManProject\TwonicJMRepo\UnrealProject\Content\Blueprints\Interactables\Pickups\Bombs\FireBomb.uasset: [Compiler] Found a component variable with a conflicting name (Sphere) - changed to Sphere_0.
+[2023.03.02-05.25.15:226][437]BlueprintLog: New page: Compile FireBomb
+[2023.03.02-05.25.15:246][437]LogProperty: Warning: Serialized Class /Script/Engine.SphereComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup_C:Sphere
+    Item = SphereComponent /Engine/Transient.World_20:PersistentLevel.REINST_FireBomb_C_1.TRASH_SphereComponent_13
+[2023.03.02-05.25.15:247][437]LogProperty: Warning: Serialized Class /Script/Engine.SphereComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup_C:Sphere
+    Item = SphereComponent /Engine/Transient.World_7:PersistentLevel.REINST_FireBomb_C_0.TRASH_SphereComponent_8
+[2023.03.02-05.25.15:281][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.03.02-05.25.16:135][525]BlueprintLog: New page: Compile FireBomb
+[2023.03.02-05.25.16:195][525]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.03.02-05.25.16:668][557]LogSavePackage: Moving '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Saved/FireBomb2F3EA51F4882398DAEA9D8BF6B222E03.tmp' to '../../../../../JourneyManProject/TwonicJMRepo/UnrealProject/Content/Blueprints/Interactables/Pickups/Bombs/FireBomb.uasset'
+[2023.03.02-05.25.16:679][557]AssetCheck: New page: Asset Save: FireBomb
+[2023.03.02-05.25.16:679][557]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/FireBomb.FireBomb
+[2023.03.02-05.25.18:971][779]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.02-05.25.18:989][779]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-05.25.23:808][326]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/Interactables/Pickups/Bombs/BombPickup.BombPickup from Pickup to BP_Pickup_C...
+[2023.03.02-05.25.23:811][326]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.03.02-05.25.24:656][326]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.845 s
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: === Handled ensure: ===
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: 
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: Ensure condition failed: !FBlueprintCompileReinstancer::IsReinstClass(OwnerClass) [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetReinstanceUtilities.cpp] [Line: 1763]
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: OwnerClass should not be 'REINST_'! This means that a REINST class was parented to another REINST class, causing unwanted recursion!
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: Stack: 
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa1cfe48c9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa1c7fbd78 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa15cce3bd UE4Editor-Kismet.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa15cce501 UE4Editor-Kismet.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa15ca4627 UE4Editor-Kismet.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa15c4c02f UE4Editor-Kismet.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa15c4bd71 UE4Editor-Kismet.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa1c777752 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa1c783060 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa15da7e90 UE4Editor-Kismet.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa15cd37be UE4Editor-Kismet.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa15c9b8f3 UE4Editor-Kismet.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff9999e7633 UE4Editor-ClassViewer.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff9999d4517 UE4Editor-ClassViewer.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff9999f4666 UE4Editor-ClassViewer.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff9999ece2d UE4Editor-ClassViewer.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa1f49421e UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa1f50e104 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa1f4f7097 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa1f4e9b62 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa3075c025 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa307492b7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa3075e465 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa30744410 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa5a74e7e8 USER32.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa5a74e229 USER32.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa3075fcd4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff70bba7621 UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff70bbc0fcc UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff70bbc10ba UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff70bbc40dd UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff70bbd5984 UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ff70bbd853a UE4Editor.exe!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa5b6c7614 KERNEL32.DLL!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: [Callstack] 0x00007ffa5b9626a1 ntdll.dll!UnknownFunction []
+[2023.03.02-05.25.24:656][326]LogOutputDevice: Error: 
