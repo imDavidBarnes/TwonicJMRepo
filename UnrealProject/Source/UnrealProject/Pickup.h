@@ -26,7 +26,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PickupProperties)
 		UTexture2D* icon{ nullptr };
 
-	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = TelescopeProperties)
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
 		UStaticMeshComponent* Mesh;
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
 		USphereComponent* ProxSphere;

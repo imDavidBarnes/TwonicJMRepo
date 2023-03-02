@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	UNREALPROJECT_API UClass* Z_Construct_UClass_APlayerCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_UnrealProject();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(APlayerCharacter::execRemoveFromMoney)
 	{
@@ -122,6 +124,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoneyAmount_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_MoneyAmount;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BPWeapon_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BPWeapon;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BPShield_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BPShield;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -139,6 +149,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "PlayerCharacter.h" },
 		{ "ModuleRelativePath", "PlayerCharacter.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
 #if WITH_METADATA
@@ -148,8 +159,24 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyAmount = { "MoneyAmount", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, MoneyAmount), nullptr, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyAmount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyAmount_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPWeapon_MetaData[] = {
+		{ "Category", "Attacking" },
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPWeapon = { "BPWeapon", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, BPWeapon), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPWeapon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPWeapon_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPShield_MetaData[] = {
+		{ "Category", "Attacking" },
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPShield = { "BPShield", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, BPShield), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPShield_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPShield_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyAmount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPWeapon,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPShield,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlayerCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlayerCharacter>::IsAbstract,
@@ -178,7 +205,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCharacter, 4092029555);
+	IMPLEMENT_CLASS(APlayerCharacter, 3976812968);
 	template<> UNREALPROJECT_API UClass* StaticClass<APlayerCharacter>()
 	{
 		return APlayerCharacter::StaticClass();

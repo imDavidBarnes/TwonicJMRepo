@@ -295,7 +295,7 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickup_Statics::NewProp_icon = { "icon", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickup, icon), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickup_Statics::NewProp_icon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickup_Statics::NewProp_icon_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickup_Statics::NewProp_Mesh_MetaData[] = {
-		{ "Category", "TelescopeProperties" },
+		{ "Category", "Collision" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Pickup.h" },
 	};
@@ -344,7 +344,7 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickup, 3329724982);
+	IMPLEMENT_CLASS(APickup, 25038998);
 	template<> UNREALPROJECT_API UClass* StaticClass<APickup>()
 	{
 		return APickup::StaticClass();
