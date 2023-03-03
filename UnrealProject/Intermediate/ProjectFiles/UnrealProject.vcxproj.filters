@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CF3E6F84-CA43-4C6C-8496-CB13B197AE3A}</UniqueIdentifier>
+      <UniqueIdentifier>{470A84F6-3C10-4F11-A7DA-3A5D0784A820}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{84B22824-CA6D-4D95-9334-1AD69B874C45}</UniqueIdentifier>
+      <UniqueIdentifier>{ADCDF277-1007-43A2-AA19-62BDB9DAB004}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealProject">
-      <UniqueIdentifier>{72173E56-66C0-4423-AAFD-5907C2D68A06}</UniqueIdentifier>
+      <UniqueIdentifier>{E792BF1B-77D8-45F6-A792-3616C8C706BD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealProject\AttackingEntity.cpp">
       <Filter>Source\UnrealProject</Filter>
