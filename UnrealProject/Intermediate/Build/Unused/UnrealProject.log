@@ -1,4 +1,19 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\JourneyManProject\TwonicJMRepo).
-  Creating makefile for UnrealProjectEditor (no existing makefile)
-  Target is up to date
-  Total execution time: 1.76 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\A0101165\Documents\Project\TwonicJMRepo).
+  Parsing headers for UnrealProjectEditor
+    Running UnrealHeaderTool "C:\Users\A0101165\Documents\Project\TwonicJMRepo\UnrealProject\UnrealProject.uproject" "C:\Users\A0101165\Documents\Project\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\A0101165\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for UnrealProjectEditor in 2.7980112 seconds
+  Building UnrealProjectEditor...
+  Using Visual Studio 2022 14.32.31329 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 7 actions with 12 processes...
+    [1/7] UnrealProject.init.gen.cpp
+    [2/7] PlayerCharacter.gen.cpp
+    [3/7] Pickup.cpp
+    [4/7] PlayerCharacter.cpp
+    [5/7] UE4Editor-UnrealProject-0002.lib
+       Creating library C:\Users\A0101165\Documents\Project\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0002.lib and object C:\Users\A0101165\Documents\Project\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0002.exp
+    [6/7] UE4Editor-UnrealProject-0002.dll
+       Creating library C:\Users\A0101165\Documents\Project\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0002.suppressed.lib and object C:\Users\A0101165\Documents\Project\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject-0002.suppressed.exp
+    [7/7] UnrealProjectEditor.target
+  Total time in Parallel executor: 2.09 seconds
+  Total execution time: 5.46 seconds
