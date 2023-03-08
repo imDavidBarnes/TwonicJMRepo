@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\b1092998\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject\\UnrealProject.Build.cs",
-		"C:\\Users\\b1092998\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
-		"C:\\Users\\b1092998\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs"
+		"F:\\1. School\\3. Uni Stuff\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject\\UnrealProject.Build.cs",
+		"F:\\1. School\\3. Uni Stuff\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
+		"F:\\1. School\\3. Uni Stuff\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
