@@ -276,6 +276,7 @@
     <None Include="..\..\UnrealProject.uproject"/>
     <None Include="..\..\Source\UnrealProject.Target.cs"/>
     <None Include="..\..\Source\UnrealProjectEditor.Target.cs"/>
+    <None Include="..\..\README - DO NOT RUN PROJECT FILE WITHOUT READING.txt"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>

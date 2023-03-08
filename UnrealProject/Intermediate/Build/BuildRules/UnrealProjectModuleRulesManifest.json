@@ -1,14 +1,8 @@
 {
 	"SourceFiles": [
-<<<<<<< Updated upstream
-		"C:\\Users\\A0073905\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject\\UnrealProject.Build.cs",
-		"C:\\Users\\A0073905\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
-		"C:\\Users\\A0073905\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs"
-=======
-		"C:\\Users\\A0100580\\OneDrive - Teesside University\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject\\UnrealProject.Build.cs",
-		"C:\\Users\\A0100580\\OneDrive - Teesside University\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
-		"C:\\Users\\A0100580\\OneDrive - Teesside University\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs"
->>>>>>> Stashed changes
+		"C:\\Users\\b1092998\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject\\UnrealProject.Build.cs",
+		"C:\\Users\\b1092998\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
+		"C:\\Users\\b1092998\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
