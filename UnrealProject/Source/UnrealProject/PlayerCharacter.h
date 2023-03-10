@@ -20,6 +20,10 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Currency)
 		uint8 MoneyAmount{ 0 };
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
+		float HealthCPP{ 0.0f };
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
+		float ManaCPP{ 0.0f };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Attacking)
 		UClass* BPWeapon{ nullptr };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Attacking)
@@ -33,6 +37,14 @@ public:
 		void AddToMoney(int amount);
 	UFUNCTION(BlueprintCallable)
 		void RemoveFromMoney(int amount);
+	UFUNCTION(BlueprintCallable)
+		void UpdateHealthAmount(int amount);
+	UFUNCTION(BlueprintCallable)
+		void UpdateManaAmount(int amount);
+	UFUNCTION(BlueprintCallable)
+		float GetHealth();
+	UFUNCTION(BlueprintCallable)
+		float GetMana();
 
 	virtual void PostInitializeComponents() override;
 

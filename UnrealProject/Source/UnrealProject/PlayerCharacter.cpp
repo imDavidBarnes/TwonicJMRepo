@@ -47,6 +47,30 @@ void APlayerCharacter::RemoveFromMoney(int amount)
 	}
 }
 
+void APlayerCharacter::UpdateHealthAmount(int amount)
+{
+	HealthCPP = amount;
+}
+
+void APlayerCharacter::UpdateManaAmount(int amount)
+{
+	ManaCPP = amount;
+}
+
+float APlayerCharacter::GetHealth()
+{
+	float temp = HealthCPP;
+	HealthCPP = 0.0f;
+	return temp;
+}
+
+float APlayerCharacter::GetMana()
+{
+	float temp = ManaCPP;
+	ManaCPP = 0.0f;
+	return temp;
+}
+
 void APlayerCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();

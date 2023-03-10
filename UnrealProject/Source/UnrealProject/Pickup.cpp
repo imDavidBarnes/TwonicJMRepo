@@ -37,6 +37,16 @@ int APickup::Prox_Implementation(UPrimitiveComponent* OverlappedComponent, AActo
 	else if (name == "Bomb")
 	{
 	}
+	else if (name == "HealthDrop")
+	{
+		character->UpdateHealthAmount(quantity);
+		Destroy();
+	}
+	else if (name == "ManaDrop")
+	{
+		character->UpdateManaAmount(quantity);
+		Destroy();
+	}
 	return 0;
 }
 
