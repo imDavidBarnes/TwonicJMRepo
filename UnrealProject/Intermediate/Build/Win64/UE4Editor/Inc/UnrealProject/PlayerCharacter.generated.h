@@ -16,12 +16,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UnrealProject_Source_UnrealProject_PlayerCharacter_h_15_SPARSE_DATA
 #define UnrealProject_Source_UnrealProject_PlayerCharacter_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetMana); \
+	DECLARE_FUNCTION(execGetHealth); \
+	DECLARE_FUNCTION(execUpdateManaAmount); \
+	DECLARE_FUNCTION(execUpdateHealthAmount); \
 	DECLARE_FUNCTION(execRemoveFromMoney); \
 	DECLARE_FUNCTION(execAddToMoney);
 
 
 #define UnrealProject_Source_UnrealProject_PlayerCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetMana); \
+	DECLARE_FUNCTION(execGetHealth); \
+	DECLARE_FUNCTION(execUpdateManaAmount); \
+	DECLARE_FUNCTION(execUpdateHealthAmount); \
 	DECLARE_FUNCTION(execRemoveFromMoney); \
 	DECLARE_FUNCTION(execAddToMoney);
 
