@@ -19,11 +19,13 @@ public:
 	APlayerCharacter(const FObjectInitializer& ObjectInitializer);
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Currency)
-		uint8 MoneyAmount{ 0 };
+		int32 MoneyAmount{ 0 };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
 		float HealthCPP{ 0.0f };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
 		float ManaCPP{ 0.0f };
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Upgrade)
+		float ScarabAmount{ 0.0f };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Attacking)
 		UClass* BPWeapon{ nullptr };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Attacking)
@@ -37,6 +39,10 @@ public:
 		void AddToMoney(int amount);
 	UFUNCTION(BlueprintCallable)
 		void RemoveFromMoney(int amount);
+	UFUNCTION(BlueprintCallable)
+		void AddToScarab(int amount);
+	UFUNCTION(BlueprintCallable)
+		bool RemoveFromScarab(int amount);
 	UFUNCTION(BlueprintCallable)
 		void UpdateHealthAmount(int amount);
 	UFUNCTION(BlueprintCallable)

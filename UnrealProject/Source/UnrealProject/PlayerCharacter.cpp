@@ -47,6 +47,22 @@ void APlayerCharacter::RemoveFromMoney(int amount)
 	}
 }
 
+void APlayerCharacter::AddToScarab(int amount)
+{
+	ScarabAmount += amount;
+}
+
+bool APlayerCharacter::RemoveFromScarab(int amount)
+{
+	if (ScarabAmount <= 0)
+	{
+		ScarabAmount = 0;
+		return false;
+	}
+	ScarabAmount -= amount;
+	return true;
+}
+
 void APlayerCharacter::UpdateHealthAmount(int amount)
 {
 	HealthCPP = amount;

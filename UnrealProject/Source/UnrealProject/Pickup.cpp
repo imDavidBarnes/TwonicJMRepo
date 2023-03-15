@@ -47,6 +47,11 @@ int APickup::Prox_Implementation(UPrimitiveComponent* OverlappedComponent, AActo
 		character->UpdateManaAmount(quantity);
 		Destroy();
 	}
+	else if (name == "Scarab")
+	{
+		character->AddToScarab(quantity);
+		Destroy();
+	}
 	return 0;
 }
 
