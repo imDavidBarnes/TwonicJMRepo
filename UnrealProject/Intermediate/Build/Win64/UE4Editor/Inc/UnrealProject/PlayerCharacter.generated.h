@@ -20,6 +20,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execGetHealth); \
 	DECLARE_FUNCTION(execUpdateManaAmount); \
 	DECLARE_FUNCTION(execUpdateHealthAmount); \
+	DECLARE_FUNCTION(execRemoveFromScarab); \
+	DECLARE_FUNCTION(execAddToScarab); \
 	DECLARE_FUNCTION(execRemoveFromMoney); \
 	DECLARE_FUNCTION(execAddToMoney);
 
@@ -30,6 +32,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execGetHealth); \
 	DECLARE_FUNCTION(execUpdateManaAmount); \
 	DECLARE_FUNCTION(execUpdateHealthAmount); \
+	DECLARE_FUNCTION(execRemoveFromScarab); \
+	DECLARE_FUNCTION(execAddToScarab); \
 	DECLARE_FUNCTION(execRemoveFromMoney); \
 	DECLARE_FUNCTION(execAddToMoney);
 

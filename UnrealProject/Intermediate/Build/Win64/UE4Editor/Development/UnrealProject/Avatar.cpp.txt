@@ -1,3 +1,3 @@
-C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
-C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Source\UnrealProject\Avatar.h
-C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\Avatar.generated.h
+D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+D:\JourneyManProject\TwonicJMRepo\UnrealProject\Source\UnrealProject\Avatar.h
+D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\Avatar.generated.h
