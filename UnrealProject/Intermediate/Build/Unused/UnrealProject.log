@@ -2,19 +2,19 @@
   Building UnrealProjectEditor...
   Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 12 actions with 16 processes...
-    [1/12] Avatar.cpp
-    [2/12] Shield.cpp
-    [3/12] AttackingEntity.cpp
+    [1/12] UnrealProjectGameModeBase.cpp
+    [2/12] AttackingEntity.cpp
+    [3/12] UnrealProject.init.gen.cpp
     [4/12] MeleeWeapon.cpp
-    [5/12] UnrealProject.init.gen.cpp
-    [6/12] Telescope.gen.cpp
-    [7/12] Telescope.cpp
-    [8/12] Avatar.gen.cpp
-    [9/12] Pickup.cpp
+    [5/12] MeleeWeapon.gen.cpp
+    [6/12] Avatar.gen.cpp
+    [7/12] PlayerCharacter.cpp
+    [8/12] PlayerCharacter.gen.cpp
+    [9/12] Enemy.gen.cpp
     [10/12] UE4Editor-UnrealProject.lib
        Creating library D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject.lib and object D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject.exp
     [11/12] UE4Editor-UnrealProject.dll
        Creating library D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject.suppressed.lib and object D:\JourneyManProject\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\UE4Editor-UnrealProject.suppressed.exp
     [12/12] UnrealProjectEditor.target
-  Total time in Parallel executor: 2.14 seconds
-  Total execution time: 12.73 seconds
+  Total time in Parallel executor: 2.11 seconds
+  Total execution time: 2.67 seconds
