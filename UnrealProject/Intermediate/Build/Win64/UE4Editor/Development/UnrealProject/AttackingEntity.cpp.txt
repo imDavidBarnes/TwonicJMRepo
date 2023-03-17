@@ -1,7 +1,7 @@
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject\AttackingEntity.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject\AttackingEntity.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\AttackingEntity.generated.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\AttackingEntity.generated.h

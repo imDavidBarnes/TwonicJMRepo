@@ -1,19 +1,19 @@
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject/PlayerCharacter.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject/PlayerCharacter.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject\Shield.h
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\Shield.generated.h
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject\MeleeWeapon.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject\Shield.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\Shield.generated.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject\MeleeWeapon.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\MeleeWeapon.generated.h
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\PlayerCharacter.generated.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\MeleeWeapon.generated.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\PlayerCharacter.generated.h

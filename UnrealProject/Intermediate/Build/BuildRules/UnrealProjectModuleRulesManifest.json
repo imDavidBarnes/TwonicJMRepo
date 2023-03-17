@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Ridlee\\Documents\\University\\Year 2 Resit\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject\\UnrealProject.Build.cs",
-		"C:\\Users\\Ridlee\\Documents\\University\\Year 2 Resit\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
-		"C:\\Users\\Ridlee\\Documents\\University\\Year 2 Resit\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs"
+		"U:\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject\\UnrealProject.Build.cs",
+		"U:\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
+		"U:\\Journeyman\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

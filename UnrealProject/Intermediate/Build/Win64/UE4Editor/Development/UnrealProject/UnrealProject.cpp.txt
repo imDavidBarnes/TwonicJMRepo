@@ -1,2 +1,2 @@
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
-C:\Users\Ridlee\Documents\University\Year 2 Resit\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject\UnrealProject.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+U:\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject\UnrealProject.h
