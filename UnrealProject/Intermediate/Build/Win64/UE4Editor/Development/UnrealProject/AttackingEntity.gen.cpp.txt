@@ -1,9 +1,9 @@
-U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+C:\Users\david\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-U:\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject/AttackingEntity.h
+C:\Users\david\Documents\GitHub\TwonicJMRepo\UnrealProject\Source\UnrealProject/AttackingEntity.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
-U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\AttackingEntity.generated.h
+C:\Users\david\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\AttackingEntity.generated.h

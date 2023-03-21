@@ -1,9 +1,9 @@
-U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+C:\Users\david\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-U:\Journeyman\TwonicJMRepo\UnrealProject\Source\UnrealProject/UnrealProjectGameModeBase.h
+C:\Users\david\Documents\GitHub\TwonicJMRepo\UnrealProject\Source\UnrealProject/UnrealProjectGameModeBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-U:\Journeyman\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\UnrealProjectGameModeBase.generated.h
+C:\Users\david\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\UnrealProjectGameModeBase.generated.h
