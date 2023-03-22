@@ -1,5 +1,13 @@
+<<<<<<< Updated upstream
 C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Source\UnrealProject/Shield.h
 C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\Shield.generated.h
+=======
+C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Source\UnrealProject/Shield.h
+C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\Shield.generated.h
+>>>>>>> Stashed changes

@@ -260,11 +260,19 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+<<<<<<< Updated upstream
 /I C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine
 /Yc"C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
 "C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
 /Fo"C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+=======
+/I C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine
+/Yc"C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+>>>>>>> Stashed changes
 /TP
 /GR-
 /W4

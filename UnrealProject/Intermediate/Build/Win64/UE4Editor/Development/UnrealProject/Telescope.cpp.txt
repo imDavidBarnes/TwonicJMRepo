@@ -1,10 +1,19 @@
+<<<<<<< Updated upstream
 C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
 C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Source\UnrealProject\Telescope.h
+=======
+C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
+C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Source\UnrealProject\Telescope.h
+>>>>>>> Stashed changes
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+<<<<<<< Updated upstream
 C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\Telescope.generated.h
+=======
+C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject\Telescope.generated.h
+>>>>>>> Stashed changes
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h

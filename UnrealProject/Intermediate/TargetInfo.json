@@ -2,12 +2,20 @@
 	"Targets": [
 		{
 			"Name": "UnrealProject",
+<<<<<<< Updated upstream
 			"Path": "C:\\Users\\V8181926\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
+=======
+			"Path": "C:\\Users\\b1092998\\Desktop\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProject.Target.cs",
+>>>>>>> Stashed changes
 			"Type": "Game"
 		},
 		{
 			"Name": "UnrealProjectEditor",
+<<<<<<< Updated upstream
 			"Path": "C:\\Users\\V8181926\\Documents\\GitHub\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs",
+=======
+			"Path": "C:\\Users\\b1092998\\Desktop\\TwonicJMRepo\\UnrealProject\\Source\\UnrealProjectEditor.Target.cs",
+>>>>>>> Stashed changes
 			"Type": "Editor"
 		}
 	]
