@@ -231,13 +231,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-<<<<<<< Updated upstream
-/I C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject
-/I C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Source
-=======
 /I C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Inc\UnrealProject
 /I C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Source
->>>>>>> Stashed changes
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -267,21 +262,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-<<<<<<< Updated upstream
-/FI"C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Source\UnrealProject\Telescope.cpp"
-/FI"C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h"
-/Fo"C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Telescope.cpp.obj"
-=======
 /FI"C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Yu"C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
 "C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Source\UnrealProject\Telescope.cpp"
 /FI"C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h"
 /Fo"C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Telescope.cpp.obj"
->>>>>>> Stashed changes
 /TP
 /GR-
 /W4

@@ -1,7 +1,2 @@
-<<<<<<< Updated upstream
-C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
-C:\Users\V8181926\Documents\GitHub\TwonicJMRepo\UnrealProject\Source\UnrealProject\UnrealProject.h
-=======
 C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Intermediate\Build\Win64\UE4Editor\Development\UnrealProject\Definitions.UnrealProject.h
 C:\Users\b1092998\Desktop\TwonicJMRepo\UnrealProject\Source\UnrealProject\UnrealProject.h
->>>>>>> Stashed changes

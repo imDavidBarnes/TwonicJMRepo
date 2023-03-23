@@ -3,11 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealProject.uproject" />
     <Filter Include="Source">
-<<<<<<< Updated upstream
-      <UniqueIdentifier>{C8CE03F7-8F7D-44A7-97BF-1550042A7CE3}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{F8067916-44E2-4E04-85C1-F866CFC359AC}</UniqueIdentifier>
->>>>>>> Stashed changes
+      <UniqueIdentifier>{41B11077-0DDA-40F7-BA10-B6E0714CE9AC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealProject.Target.cs">
       <Filter>Source</Filter>
@@ -17,11 +13,7 @@
     </None>
     <None Include="..\..\README - DO NOT RUN PROJECT FILE WITHOUT READING.txt" />
     <Filter Include="Config">
-<<<<<<< Updated upstream
-      <UniqueIdentifier>{CFC218C7-4531-4953-9C36-2C3F17549979}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{7A2D01E4-1D4B-4FF8-A5C8-44AAC8F33CC9}</UniqueIdentifier>
->>>>>>> Stashed changes
+      <UniqueIdentifier>{2CB7B7A2-A6F3-40F9-A74C-6D9C644CFF11}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -36,11 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealProject">
-<<<<<<< Updated upstream
-      <UniqueIdentifier>{68FF969F-F849-42D0-9FA9-7EE26D46F4A0}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{D4876C8B-A637-4429-9B68-1994A78D98C1}</UniqueIdentifier>
->>>>>>> Stashed changes
+      <UniqueIdentifier>{C94E23A9-7833-40D4-9C1D-B41DA5CDBF13}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealProject\AttackingEntity.cpp">
       <Filter>Source\UnrealProject</Filter>

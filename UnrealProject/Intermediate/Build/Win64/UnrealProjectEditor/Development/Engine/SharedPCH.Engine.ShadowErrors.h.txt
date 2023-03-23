@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-C:/Users/V8181926/Documents/GitHub/TwonicJMRepo/UnrealProject/Intermediate/Build/Win64/UnrealProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h
-=======
 C:/Users/b1092998/Desktop/TwonicJMRepo/UnrealProject/Intermediate/Build/Win64/UnrealProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h
->>>>>>> Stashed changes
 C:/Program Files/Epic Games/UE_4.27/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\CoreTypes.h
