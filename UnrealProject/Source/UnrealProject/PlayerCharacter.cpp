@@ -18,9 +18,9 @@ APlayerCharacter::APlayerCharacter(const FObjectInitializer& ObjectInitializer) 
 void APlayerCharacter::AddToMoney(int amount)
 {
 	if (amount < 0) return;
-	if (MoneyAmount + amount > 255)
+	if (MoneyAmount + amount > 9999)
 	{
-		MoneyAmount = 255;
+		MoneyAmount = 9999;
 		return;
 	}
 	MoneyAmount += amount;
@@ -31,13 +31,12 @@ void APlayerCharacter::AddToMoney(int amount)
 	}
 }
 
-void APlayerCharacter::RemoveFromMoney(int amount)
+bool APlayerCharacter::RemoveFromMoney(int amount)
 {
-	if (amount < 0) return;
+	if (amount < 0) return false;
 	if (MoneyAmount - amount < 0)
 	{
-		MoneyAmount = 0;
-		return;
+		return false;
 	}
 	MoneyAmount -= amount;
 
@@ -45,6 +44,7 @@ void APlayerCharacter::RemoveFromMoney(int amount)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Money: %i"), MoneyAmount));
 	}
+	return true;
 }
 
 void APlayerCharacter::AddToScarab(int amount)

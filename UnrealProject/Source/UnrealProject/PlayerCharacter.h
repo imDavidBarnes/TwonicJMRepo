@@ -38,7 +38,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void AddToMoney(int amount);
 	UFUNCTION(BlueprintCallable)
-		void RemoveFromMoney(int amount);
+		bool RemoveFromMoney(int amount);
 	UFUNCTION(BlueprintCallable)
 		void AddToScarab(int amount);
 	UFUNCTION(BlueprintCallable)
