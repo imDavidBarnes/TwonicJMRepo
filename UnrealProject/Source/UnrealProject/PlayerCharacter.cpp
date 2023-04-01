@@ -11,8 +11,9 @@ APlayerCharacter::APlayerCharacter(const FObjectInitializer& ObjectInitializer) 
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-
+	Health = MaxHealth;
+	Stamina = MaxStamina;
+	Mana = MaxMana;
 }
 
 void APlayerCharacter::AddToMoney(int amount)
@@ -63,28 +64,63 @@ bool APlayerCharacter::RemoveFromScarab(int amount)
 	return true;
 }
 
-void APlayerCharacter::UpdateHealthAmount(int amount)
+void APlayerCharacter::UpdateHealthAmount(float amount)
 {
-	HealthCPP = amount;
+	if (Health + amount > MaxHealth)
+	{
+		Health = MaxHealth;
+		return;
+	}
+	if (Health + amount < 0)
+	{
+		TestDead((-1 * amount) / MaxHealth);
+		return;
+	}
+	Health += amount;
 }
 
-void APlayerCharacter::UpdateManaAmount(int amount)
+void APlayerCharacter::UpdateManaAmount(float amount)
 {
-	ManaCPP = amount;
+	Mana += amount;
+}
+void APlayerCharacter::UpdateStaminaAmount(float amount)
+{
+	Stamina += amount;
 }
 
 float APlayerCharacter::GetHealth()
 {
-	float temp = HealthCPP;
-	HealthCPP = 0.0f;
-	return temp;
+	return Health;
 }
 
 float APlayerCharacter::GetMana()
 {
-	float temp = ManaCPP;
-	ManaCPP = 0.0f;
-	return temp;
+	return Mana;
+}
+
+float APlayerCharacter::GetStamina()
+{
+	return Stamina;
+}
+
+void APlayerCharacter::TestDead(float percentAmountLost)
+{
+	if (Health <= 0.0f)
+	{
+		Health = -1.0f;
+		return;
+	}
+	if (percentAmountLost * 100.0f > 40.0f)
+	{
+		Health = 0.0f;
+		return;
+	}
+	else if (percentAmountLost * 100.0f + 20.0f > Health)
+	{
+		Health = -1.0f;
+		return;
+	}
+	Health = 0.0f;
 }
 
 void APlayerCharacter::PostInitializeComponents()

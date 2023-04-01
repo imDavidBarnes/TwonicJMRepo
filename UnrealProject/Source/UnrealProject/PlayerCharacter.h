@@ -21,9 +21,14 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Currency)
 		int32 MoneyAmount{ 0 };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
-		float HealthCPP{ 0.0f };
+		float MaxHealth{ 5.0f };
+	float Health;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
-		float ManaCPP{ 0.0f };
+		float MaxMana{ 5.0f };
+	float Mana;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
+		float MaxStamina{ 5.0f };
+	float Stamina;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Upgrade)
 		float ScarabAmount{ 0.0f };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Attacking)
@@ -44,13 +49,26 @@ public:
 	UFUNCTION(BlueprintCallable)
 		bool RemoveFromScarab(int amount);
 	UFUNCTION(BlueprintCallable)
-		void UpdateHealthAmount(int amount);
+		void UpdateHealthAmount(float amount);
 	UFUNCTION(BlueprintCallable)
-		void UpdateManaAmount(int amount);
+		void UpdateManaAmount(float amount);
+	UFUNCTION(BlueprintCallable)
+		void UpdateStaminaAmount(float amount);
 	UFUNCTION(BlueprintCallable)
 		float GetHealth();
 	UFUNCTION(BlueprintCallable)
 		float GetMana();
+	UFUNCTION(BlueprintCallable)
+		float GetStamina();
+	UFUNCTION(BlueprintCallable)
+		void ResetHealth(float newHealth) { Health = newHealth; }
+	UFUNCTION(BlueprintCallable)
+		void ResetStamina(float newStamina) { Stamina = newStamina; }
+	UFUNCTION(BlueprintCallable)
+		void ResetMana(float newMana) { Mana = newMana; }
+	
+
+	void TestDead(float percentAmountLost);
 
 	virtual void PostInitializeComponents() override;
 
