@@ -30,7 +30,11 @@ public:
 		float MaxStamina{ 5.0f };
 	float Stamina;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Upgrade)
-		float ScarabAmount{ 0.0f };
+		int32 ScarabAmount{ 0 };
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Upgrade)
+		bool ScarabCollected{ false };
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Currency)
+		bool MoneyCollected{ false };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Attacking)
 		UClass* BPWeapon{ nullptr };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Attacking)
@@ -41,13 +45,13 @@ public:
 	AMeleeWeapon* Weapon{ nullptr };
 
 	UFUNCTION(BlueprintCallable)
-		void AddToMoney(int amount);
+		void AddToMoney(int32 amount);
 	UFUNCTION(BlueprintCallable)
-		bool RemoveFromMoney(int amount);
+		bool RemoveFromMoney(int32 amount);
 	UFUNCTION(BlueprintCallable)
-		void AddToScarab(int amount);
+		void AddToScarab(int32 amount);
 	UFUNCTION(BlueprintCallable)
-		bool RemoveFromScarab(int amount);
+		bool RemoveFromScarab(int32 amount);
 	UFUNCTION(BlueprintCallable)
 		void UpdateHealthAmount(float amount);
 	UFUNCTION(BlueprintCallable)

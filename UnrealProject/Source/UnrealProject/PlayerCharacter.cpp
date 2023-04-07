@@ -16,9 +16,10 @@ APlayerCharacter::APlayerCharacter(const FObjectInitializer& ObjectInitializer) 
 	Mana = MaxMana;
 }
 
-void APlayerCharacter::AddToMoney(int amount)
+void APlayerCharacter::AddToMoney(int32 amount)
 {
 	if (amount < 0) return;
+	MoneyCollected = true;
 	if (MoneyAmount + amount > 9999)
 	{
 		MoneyAmount = 9999;
@@ -32,7 +33,7 @@ void APlayerCharacter::AddToMoney(int amount)
 	}
 }
 
-bool APlayerCharacter::RemoveFromMoney(int amount)
+bool APlayerCharacter::RemoveFromMoney(int32 amount)
 {
 	if (amount < 0) return false;
 	if (MoneyAmount - amount < 0)
@@ -48,12 +49,13 @@ bool APlayerCharacter::RemoveFromMoney(int amount)
 	return true;
 }
 
-void APlayerCharacter::AddToScarab(int amount)
+void APlayerCharacter::AddToScarab(int32 amount)
 {
+	ScarabCollected = true;
 	ScarabAmount += amount;
 }
 
-bool APlayerCharacter::RemoveFromScarab(int amount)
+bool APlayerCharacter::RemoveFromScarab(int32 amount)
 {
 	if (ScarabAmount <= 0)
 	{
