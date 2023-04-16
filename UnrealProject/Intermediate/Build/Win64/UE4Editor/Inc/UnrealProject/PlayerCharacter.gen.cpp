@@ -20,6 +20,37 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(APlayerCharacter::execResetMana)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_newMana);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ResetMana(Z_Param_newMana);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(APlayerCharacter::execResetStamina)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_newStamina);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ResetStamina(Z_Param_newStamina);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(APlayerCharacter::execResetHealth)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_newHealth);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ResetHealth(Z_Param_newHealth);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(APlayerCharacter::execGetStamina)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->GetStamina();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(APlayerCharacter::execGetMana)
 	{
 		P_FINISH;
@@ -34,9 +65,17 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		*(float*)Z_Param__Result=P_THIS->GetHealth();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(APlayerCharacter::execUpdateStaminaAmount)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_amount);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->UpdateStaminaAmount(Z_Param_amount);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(APlayerCharacter::execUpdateManaAmount)
 	{
-		P_GET_PROPERTY(FIntProperty,Z_Param_amount);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_amount);
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->UpdateManaAmount(Z_Param_amount);
@@ -44,7 +83,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	}
 	DEFINE_FUNCTION(APlayerCharacter::execUpdateHealthAmount)
 	{
-		P_GET_PROPERTY(FIntProperty,Z_Param_amount);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_amount);
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->UpdateHealthAmount(Z_Param_amount);
@@ -71,7 +110,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		P_GET_PROPERTY(FIntProperty,Z_Param_amount);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->RemoveFromMoney(Z_Param_amount);
+		*(bool*)Z_Param__Result=P_THIS->RemoveFromMoney(Z_Param_amount);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(APlayerCharacter::execAddToMoney)
@@ -90,10 +129,15 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 			{ "AddToScarab", &APlayerCharacter::execAddToScarab },
 			{ "GetHealth", &APlayerCharacter::execGetHealth },
 			{ "GetMana", &APlayerCharacter::execGetMana },
+			{ "GetStamina", &APlayerCharacter::execGetStamina },
 			{ "RemoveFromMoney", &APlayerCharacter::execRemoveFromMoney },
 			{ "RemoveFromScarab", &APlayerCharacter::execRemoveFromScarab },
+			{ "ResetHealth", &APlayerCharacter::execResetHealth },
+			{ "ResetMana", &APlayerCharacter::execResetMana },
+			{ "ResetStamina", &APlayerCharacter::execResetStamina },
 			{ "UpdateHealthAmount", &APlayerCharacter::execUpdateHealthAmount },
 			{ "UpdateManaAmount", &APlayerCharacter::execUpdateManaAmount },
+			{ "UpdateStaminaAmount", &APlayerCharacter::execUpdateStaminaAmount },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -103,14 +147,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		{
 			int32 amount;
 		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_amount;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_amount;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayerCharacter_AddToMoney_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventAddToMoney_Parms, amount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APlayerCharacter_AddToMoney_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventAddToMoney_Parms, amount), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_AddToMoney_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_AddToMoney_Statics::NewProp_amount,
 	};
@@ -135,14 +179,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		{
 			int32 amount;
 		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_amount;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_amount;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayerCharacter_AddToScarab_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventAddToScarab_Parms, amount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APlayerCharacter_AddToScarab_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventAddToScarab_Parms, amount), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_AddToScarab_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_AddToScarab_Statics::NewProp_amount,
 	};
@@ -225,22 +269,63 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics
+	struct Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics
 	{
-		struct PlayerCharacter_eventRemoveFromMoney_Parms
+		struct PlayerCharacter_eventGetStamina_Parms
 		{
-			int32 amount;
+			float ReturnValue;
 		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_amount;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventRemoveFromMoney_Parms, amount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventGetStamina_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "GetStamina", nullptr, nullptr, sizeof(PlayerCharacter_eventGetStamina_Parms), Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCharacter_GetStamina()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_GetStamina_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics
+	{
+		struct PlayerCharacter_eventRemoveFromMoney_Parms
+		{
+			int32 amount;
+			bool ReturnValue;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_amount;
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventRemoveFromMoney_Parms, amount), METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((PlayerCharacter_eventRemoveFromMoney_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(PlayerCharacter_eventRemoveFromMoney_Parms), &Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics::NewProp_amount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney_Statics::Function_MetaDataParams[] = {
@@ -264,7 +349,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 			int32 amount;
 			bool ReturnValue;
 		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_amount;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_amount;
 		static void NewProp_ReturnValue_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -273,7 +358,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayerCharacter_RemoveFromScarab_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventRemoveFromScarab_Parms, amount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APlayerCharacter_RemoveFromScarab_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventRemoveFromScarab_Parms, amount), METADATA_PARAMS(nullptr, 0) };
 	void Z_Construct_UFunction_APlayerCharacter_RemoveFromScarab_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((PlayerCharacter_eventRemoveFromScarab_Parms*)Obj)->ReturnValue = 1;
@@ -298,20 +383,116 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_APlayerCharacter_UpdateHealthAmount_Statics
+	struct Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics
 	{
-		struct PlayerCharacter_eventUpdateHealthAmount_Parms
+		struct PlayerCharacter_eventResetHealth_Parms
 		{
-			int32 amount;
+			float newHealth;
 		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_amount;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_newHealth;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayerCharacter_UpdateHealthAmount_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventUpdateHealthAmount_Parms, amount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::NewProp_newHealth = { "newHealth", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventResetHealth_Parms, newHealth), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::NewProp_newHealth,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "ResetHealth", nullptr, nullptr, sizeof(PlayerCharacter_eventResetHealth_Parms), Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCharacter_ResetHealth()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_ResetHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics
+	{
+		struct PlayerCharacter_eventResetMana_Parms
+		{
+			float newMana;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_newMana;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::NewProp_newMana = { "newMana", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventResetMana_Parms, newMana), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::NewProp_newMana,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "ResetMana", nullptr, nullptr, sizeof(PlayerCharacter_eventResetMana_Parms), Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCharacter_ResetMana()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_ResetMana_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics
+	{
+		struct PlayerCharacter_eventResetStamina_Parms
+		{
+			float newStamina;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_newStamina;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::NewProp_newStamina = { "newStamina", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventResetStamina_Parms, newStamina), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::NewProp_newStamina,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "ResetStamina", nullptr, nullptr, sizeof(PlayerCharacter_eventResetStamina_Parms), Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCharacter_ResetStamina()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_ResetStamina_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayerCharacter_UpdateHealthAmount_Statics
+	{
+		struct PlayerCharacter_eventUpdateHealthAmount_Parms
+		{
+			float amount;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_amount;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerCharacter_UpdateHealthAmount_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventUpdateHealthAmount_Parms, amount), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_UpdateHealthAmount_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_UpdateHealthAmount_Statics::NewProp_amount,
 	};
@@ -334,16 +515,16 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	{
 		struct PlayerCharacter_eventUpdateManaAmount_Parms
 		{
-			int32 amount;
+			float amount;
 		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_amount;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_amount;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayerCharacter_UpdateManaAmount_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventUpdateManaAmount_Parms, amount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerCharacter_UpdateManaAmount_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventUpdateManaAmount_Parms, amount), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_UpdateManaAmount_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_UpdateManaAmount_Statics::NewProp_amount,
 	};
@@ -359,6 +540,38 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_UpdateManaAmount_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics
+	{
+		struct PlayerCharacter_eventUpdateStaminaAmount_Parms
+		{
+			float amount;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_amount;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventUpdateStaminaAmount_Parms, amount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::NewProp_amount,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "UpdateStaminaAmount", nullptr, nullptr, sizeof(PlayerCharacter_eventUpdateStaminaAmount_Parms), Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -378,17 +591,31 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_MoneyAmount;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthCPP_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxHealth_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealthCPP;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ManaCPP_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxMana_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ManaCPP;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxMana;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxStamina_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxStamina;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ScarabAmount_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ScarabAmount;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ScarabAmount;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ScarabCollected_MetaData[];
+#endif
+		static void NewProp_ScarabCollected_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ScarabCollected;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoneyCollected_MetaData[];
+#endif
+		static void NewProp_MoneyCollected_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_MoneyCollected;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BPWeapon_MetaData[];
 #endif
@@ -406,14 +633,19 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_UnrealProject,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayerCharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APlayerCharacter_AddToMoney, "AddToMoney" }, // 3949422185
-		{ &Z_Construct_UFunction_APlayerCharacter_AddToScarab, "AddToScarab" }, // 1036076181
+		{ &Z_Construct_UFunction_APlayerCharacter_AddToMoney, "AddToMoney" }, // 3648763165
+		{ &Z_Construct_UFunction_APlayerCharacter_AddToScarab, "AddToScarab" }, // 1493725138
 		{ &Z_Construct_UFunction_APlayerCharacter_GetHealth, "GetHealth" }, // 1163933678
 		{ &Z_Construct_UFunction_APlayerCharacter_GetMana, "GetMana" }, // 902146189
-		{ &Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney, "RemoveFromMoney" }, // 3499677642
-		{ &Z_Construct_UFunction_APlayerCharacter_RemoveFromScarab, "RemoveFromScarab" }, // 317141489
-		{ &Z_Construct_UFunction_APlayerCharacter_UpdateHealthAmount, "UpdateHealthAmount" }, // 3504840039
-		{ &Z_Construct_UFunction_APlayerCharacter_UpdateManaAmount, "UpdateManaAmount" }, // 4089376220
+		{ &Z_Construct_UFunction_APlayerCharacter_GetStamina, "GetStamina" }, // 1692626409
+		{ &Z_Construct_UFunction_APlayerCharacter_RemoveFromMoney, "RemoveFromMoney" }, // 697942831
+		{ &Z_Construct_UFunction_APlayerCharacter_RemoveFromScarab, "RemoveFromScarab" }, // 818121952
+		{ &Z_Construct_UFunction_APlayerCharacter_ResetHealth, "ResetHealth" }, // 1274712534
+		{ &Z_Construct_UFunction_APlayerCharacter_ResetMana, "ResetMana" }, // 835704110
+		{ &Z_Construct_UFunction_APlayerCharacter_ResetStamina, "ResetStamina" }, // 2160832509
+		{ &Z_Construct_UFunction_APlayerCharacter_UpdateHealthAmount, "UpdateHealthAmount" }, // 4158759416
+		{ &Z_Construct_UFunction_APlayerCharacter_UpdateManaAmount, "UpdateManaAmount" }, // 2419371657
+		{ &Z_Construct_UFunction_APlayerCharacter_UpdateStaminaAmount, "UpdateStaminaAmount" }, // 196451887
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::Class_MetaDataParams[] = {
@@ -431,26 +663,55 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyAmount = { "MoneyAmount", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, MoneyAmount), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyAmount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyAmount_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HealthCPP_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxHealth_MetaData[] = {
 		{ "Category", "Status" },
 		{ "ModuleRelativePath", "PlayerCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HealthCPP = { "HealthCPP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, HealthCPP), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HealthCPP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HealthCPP_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxHealth_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ManaCPP_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxMana_MetaData[] = {
 		{ "Category", "Status" },
 		{ "ModuleRelativePath", "PlayerCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ManaCPP = { "ManaCPP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, ManaCPP), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ManaCPP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ManaCPP_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxMana = { "MaxMana", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, MaxMana), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxMana_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxMana_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxStamina_MetaData[] = {
+		{ "Category", "Status" },
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxStamina = { "MaxStamina", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, MaxStamina), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxStamina_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxStamina_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabAmount_MetaData[] = {
 		{ "Category", "Upgrade" },
 		{ "ModuleRelativePath", "PlayerCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabAmount = { "ScarabAmount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, ScarabAmount), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabAmount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabAmount_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabAmount = { "ScarabAmount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, ScarabAmount), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabAmount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabAmount_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabCollected_MetaData[] = {
+		{ "Category", "Upgrade" },
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabCollected_SetBit(void* Obj)
+	{
+		((APlayerCharacter*)Obj)->ScarabCollected = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabCollected = { "ScarabCollected", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APlayerCharacter), &Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabCollected_SetBit, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabCollected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabCollected_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyCollected_MetaData[] = {
+		{ "Category", "Currency" },
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyCollected_SetBit(void* Obj)
+	{
+		((APlayerCharacter*)Obj)->MoneyCollected = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyCollected = { "MoneyCollected", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APlayerCharacter), &Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyCollected_SetBit, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyCollected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyCollected_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPWeapon_MetaData[] = {
 		{ "Category", "Attacking" },
@@ -467,9 +728,12 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPShield = { "BPShield", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, BPShield), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPShield_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPShield_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyAmount,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HealthCPP,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ManaCPP,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxMana,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MaxStamina,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabAmount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ScarabCollected,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoneyCollected,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPWeapon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_BPShield,
 	};
@@ -500,7 +764,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCharacter, 1483098905);
+	IMPLEMENT_CLASS(APlayerCharacter, 1955095799);
 	template<> UNREALPROJECT_API UClass* StaticClass<APlayerCharacter>()
 	{
 		return APlayerCharacter::StaticClass();

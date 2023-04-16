@@ -16,8 +16,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UnrealProject_Source_UnrealProject_PlayerCharacter_h_15_SPARSE_DATA
 #define UnrealProject_Source_UnrealProject_PlayerCharacter_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execResetMana); \
+	DECLARE_FUNCTION(execResetStamina); \
+	DECLARE_FUNCTION(execResetHealth); \
+	DECLARE_FUNCTION(execGetStamina); \
 	DECLARE_FUNCTION(execGetMana); \
 	DECLARE_FUNCTION(execGetHealth); \
+	DECLARE_FUNCTION(execUpdateStaminaAmount); \
 	DECLARE_FUNCTION(execUpdateManaAmount); \
 	DECLARE_FUNCTION(execUpdateHealthAmount); \
 	DECLARE_FUNCTION(execRemoveFromScarab); \
@@ -28,8 +33,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define UnrealProject_Source_UnrealProject_PlayerCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execResetMana); \
+	DECLARE_FUNCTION(execResetStamina); \
+	DECLARE_FUNCTION(execResetHealth); \
+	DECLARE_FUNCTION(execGetStamina); \
 	DECLARE_FUNCTION(execGetMana); \
 	DECLARE_FUNCTION(execGetHealth); \
+	DECLARE_FUNCTION(execUpdateStaminaAmount); \
 	DECLARE_FUNCTION(execUpdateManaAmount); \
 	DECLARE_FUNCTION(execUpdateHealthAmount); \
 	DECLARE_FUNCTION(execRemoveFromScarab); \
