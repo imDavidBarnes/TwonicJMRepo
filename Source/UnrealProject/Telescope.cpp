@@ -17,7 +17,7 @@ ATelescope::ATelescope(const FObjectInitializer& ObjectInitializer)
 	RootComponent = Mesh;
 
 	ProxSphere->OnComponentBeginOverlap.AddDynamic(this, &ATelescope::Prox);
-	ProxSphere->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+	ProxSphere->SetupAttachment(RootComponent);
 }
 
 int ATelescope::Prox_Implementation(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)

@@ -18,7 +18,7 @@ APickup::APickup(const FObjectInitializer& ObjectInitializer) : Super(ObjectInit
 
 	ProxSphere->OnComponentBeginOverlap.AddDynamic(this, &APickup::Prox);
 	ProxSphere->OnComponentEndOverlap.AddDynamic(this, &APickup::ProxEnd);
-	ProxSphere->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+	ProxSphere->SetupAttachment(RootComponent);
 }
 
 int APickup::Prox_Implementation(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
