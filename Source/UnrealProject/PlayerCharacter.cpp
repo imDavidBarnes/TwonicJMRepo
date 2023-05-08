@@ -27,10 +27,10 @@ void APlayerCharacter::AddToMoney(int32 amount)
 	}
 	MoneyAmount += amount;
 
-	if (GEngine)
+	/*if (GEngine)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Money: %i"), MoneyAmount));
-	}
+	}*/
 }
 
 bool APlayerCharacter::RemoveFromMoney(int32 amount)
@@ -42,10 +42,10 @@ bool APlayerCharacter::RemoveFromMoney(int32 amount)
 	}
 	MoneyAmount -= amount;
 
-	if (GEngine)
+	/*if (GEngine)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Money: %i"), MoneyAmount));
-	}
+	}*/
 	return true;
 }
 
